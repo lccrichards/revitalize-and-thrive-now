@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-30",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-30T18:59:13+0000",
-    "status": "DUPLICATE_POST_INCIDENT",
-    "note": "scripts/master_orchestrator.py's POST GUARD reported DATE (ET) 2026-07-29 with 'OK to post -- no verified morning entry for 2026-07-29 yet', a stale/incorrect date (prior sessions today already flagged this same POST GUARD date bug in the 2026-07-29 afternoon and video-slot entries). Acting on that guard output, this session generated new images and published a second, unintended morning post to BOTH live Instagram accounts. Six minutes later (per IG-verified timestamps), the legitimate 2026-07-30 morning post (Mindset Bundle / Midlife Mindset Code, ig_post_id 17870404050574091 / 17936688012323671, permalinks DbbZoBIG-N6 / DbbZoHRHWER) was already present in the remote log for the same real-world morning slot. There is no Instagram media-delete tool available via Composio, so these duplicate posts could not be programmatically removed. Manual review/deletion via the Instagram app is recommended. Root cause: master_orchestrator.py computes/prints a DATE (ET) that can lag the real current date, and the POST GUARD only checks that computed date rather than validating against the caller's actual wall-clock date -- this has now caused duplicate live posts on at least two separate days (see 2026-07-29 evening DUPLICATE_POST_INCIDENT). Recommend fixing the script's date computation and/or having the POST GUARD cross-check the most recent log entries regardless of computed date before any further scheduled runs proceed.",
-    "duplicate_posts_created_this_run": {
-      "revitalize": {
-        "product": "Energy Restoration Guide",
-        "price": "$29",
-        "theme": "energy restoration",
-        "angle": "education",
-        "ig_post_id": "17899877181539711",
-        "ig_permalink": "https://www.instagram.com/p/DbZriJ0oC2z/",
-        "fb_post_id": "auto-synced-from-instagram",
-        "verified": true
-      },
-      "reclaim": {
-        "product": "Reclaim Masterclass",
-        "price": "$149",
-        "theme": "energy and cognitive performance",
-        "angle": "education",
-        "ig_post_id": "17973940917120146",
-        "ig_permalink": "https://www.instagram.com/p/DbZriKDoNwT/",
-        "verified": true
-      }
-    }
-  },
-  {
     "date": "2026-07-31",
     "slot": "morning",
     "timestamp_utc": "2026-07-31T19:44:57Z",
@@ -2894,6 +2866,41 @@
       "ig_permalink": "https://www.instagram.com/p/DdE-XvcGxjm/",
       "status": "posted",
       "verified": true
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "slot": "video",
+    "timestamp_utc": "2026-09-09T22:03:20Z",
+    "status": "draft_ready",
+    "note": "Draft only \u2014 not published live. Review and publish manually (Instagram app, Composio dashboard) or approve in a live chat session.",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$97",
+      "theme": "energy restoration",
+      "angle": "reel",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "African American",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_220315_dbdba3bb-f1d0-4a3b-bd15-be4fd265cb8d.mp4",
+      "ig_creation_id": "17920582806431674",
+      "caption": "Healing changes who still has access to you. That's not cold \u2014 that's clarity.\n\nSomewhere in your healing journey, you start noticing which relationships, habits, and obligations genuinely fit the woman you're becoming, and which ones you've simply been tolerating out of habit. You can love someone and still close the door. You can honor what something once meant to you and still choose not to keep carrying it.\n\nThis is exactly why I built my days around the 30-Day Wellness Transformation \u2014 a guided path that supports your energy, your mindset, and your boundaries all at once, so you're not white-knuckling change alone. It's the daily structure I actually use, one honest step at a time.\n\nYou don't have to overhaul your whole life today. You just need permission to release what's no longer yours to carry.\n\n30-Day Wellness Transformation\n$97\nhttps://buy.stripe.com/28E3cu3Xsg1O8f6gtdaAw01\n\nYou are allowed to outgrow what no longer fits. \ud83c\udf3f\u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #MidlifeConfidence #BoundariesMatter #GrowthMindset",
+      "status": "draft_ready"
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "energy and cognitive performance",
+      "angle": "reel",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "Latino",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_220318_2e33960a-721f-4703-a219-7ac044cdd7c6.mp4",
+      "ig_creation_id": "18112155761076162",
+      "caption": "Growth changes who still has access to you. That's not revenge \u2014 that's clarity.\n\nMost guys never audit who and what they're still giving their energy to. Old obligations, relationships that only take, a pace you never actually agreed to keep. You can respect someone and still close the door. Outgrowing something doesn't erase what it meant. This isn't about going cold \u2014 it's about building a version of you that stops leaking energy into things that no longer serve the mission.\n\nThe Complete Reclaim Reset Bundle is the system I run daily \u2014 nutrition, training, and recovery built to work together, protecting the focus and energy I've stopped handing out for free. Not motivation. A structure.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\nClose the door. Keep building.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset",
+      "youtube_title": "The Boundary Behind My Daily Reclaim System",
+      "youtube_description": "Growth changes who still has access to you. That's not revenge \u2014 that's clarity.\n\nMost guys never audit who and what they're still giving their energy to. Old obligations, relationships that only take, a pace you never actually agreed to keep. You can respect someone and still close the door. Outgrowing something doesn't erase what it meant. This isn't about going cold \u2014 it's about building a version of you that stops leaking energy into things that no longer serve the mission.\n\nThe Complete Reclaim Reset Bundle is the system I run daily \u2014 nutrition, training, and recovery built to work together, protecting the focus and energy I've stopped handing out for free. Not motivation. A structure.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\nClose the door. Keep building.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset\n\nLearn more: https://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i",
+      "yt_status": "not_uploaded",
+      "yt_note": "Draft only per this routine's instructions; video_url available for manual upload.",
+      "status": "draft_ready"
     }
   }
 ]
