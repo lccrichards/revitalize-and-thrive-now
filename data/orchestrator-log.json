@@ -2645,5 +2645,40 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-09 (Wednesday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$79",
+      "theme": "energy restoration",
+      "angle": "aspirational_offer",
+      "ig_user_id": "27164026169935796",
+      "image_job_id": "2d99d735-8044-4c28-b32d-0c99a6a22e50",
+      "container_id": "17920587444431674",
+      "media_id": "18128610907685363",
+      "permalink": "https://www.instagram.com/p/DdFdBnKm9L_/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "verified": true,
+      "compliant": true,
+      "status": "posted"
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "energy and cognitive performance",
+      "angle": "aspirational_offer",
+      "ig_user_id": "27634679816148097",
+      "image_job_id": "ac3ff350-7d7b-4e0d-8db2-32bcadbd33ad",
+      "container_id": "18112162355076162",
+      "media_id": "18449918209193381",
+      "permalink": "https://www.instagram.com/p/DdFdBlAjaOx/",
+      "verified": true,
+      "compliant": true,
+      "status": "posted",
+      "yt_status": "failed",
+      "yt_note": "Best-effort YouTube upload skipped: ffmpeg unavailable in runtime (apt-get install failed, package fetch 404s) so the Option B video pipeline could not run. Does not affect Instagram posting/verification above."
+    }
   }
 ]
