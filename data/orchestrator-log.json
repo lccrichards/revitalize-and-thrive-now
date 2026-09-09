@@ -1,35 +1,6 @@
 [
   {
     "date": "2026-07-30",
-    "slot": "night",
-    "timestamp_utc": "2026-07-31T02:06:47Z",
-    "revitalize": {
-      "product": "Stress Management Workbook",
-      "price": "$39",
-      "theme": "mindset reset",
-      "angle": "urgency_social_proof",
-      "ethnicity": "South Asian",
-      "ig_post_id": "18127790585493678",
-      "ig_permalink": "https://www.instagram.com/p/DbcJyd_oK6l/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Midlife Mindset Code",
-      "price": "$39",
-      "theme": "mindset recalibration",
-      "angle": "urgency_social_proof",
-      "ethnicity": "White",
-      "ig_post_id": "18109137940956907",
-      "ig_permalink": "https://www.instagram.com/p/DbcJynljUH5/",
-      "status": "posted",
-      "verified": true
-    },
-    "note": "Revitalize account alias in CLAUDE.md (instagram_cardin-bulgar) is stale/not found in active Composio connections; used current active alias instagram_walrus-waac (same ig_user_id 27164026169935796), consistent with prior night-slot session fix on 2026-07-29."
-  },
-  {
-    "date": "2026-07-30",
     "slot": "morning",
     "timestamp_utc": "2026-07-30T18:59:13+0000",
     "status": "DUPLICATE_POST_INCIDENT",
@@ -2887,6 +2858,40 @@
       "caption": "Growth changes who still has access to you. That is not cold. That is clarity.\n\nResearch on cognitive load is clear: staying obligated to people, projects, and expectations that no longer fit you does not just cost time. It costs bandwidth, the same bandwidth you need for focus, drive, and decision-making. You cannot build a sharper edge while still carrying weight you never agreed to keep.\n\nMost guys treat this as a mindset problem. It is not. It is a strategy problem: knowing exactly what to keep, what to cut, and how to make the shift without burning the capital you spent years building.\n\nThe Reclaim Masterclass breaks down the framework \u2014 how to identify what is draining you, set the boundary, and rebuild your focus around what actually moves you forward.\n\nReclaim Masterclass\n$197\nhttps://buy.stripe.com/fZu6oGbpUbLy52U1yjaAw0j\n\nClose the door. Keep walking.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift",
       "ig_post_id": "17860485300693603",
       "ig_permalink": "https://www.instagram.com/p/DdEJCIzm7h6/",
+      "status": "posted",
+      "verified": true
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-09T19:07:24Z",
+    "revitalize": {
+      "product": "Energy Restoration Guide",
+      "price": "$37",
+      "theme": "energy restoration",
+      "angle": "supportive_solution",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "Middle Eastern",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_190527_e9a11172-eea1-4a3c-a2d0-8bcf8fb67e1e.png",
+      "ig_creation_id": "17920570929431674",
+      "ig_post_id": "18335153968261941",
+      "ig_permalink": "https://www.instagram.com/p/DdE-Xu2HeKx/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Midlife Wellness Planner",
+      "price": "$19",
+      "theme": "energy and cognitive performance",
+      "angle": "supportive_solution",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "White",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_190531_8796c73c-b7db-4f83-adb0-dcf5704f0b10.png",
+      "ig_creation_id": "18112142789076162",
+      "ig_post_id": "18021399347923143",
+      "ig_permalink": "https://www.instagram.com/p/DdE-XvcGxjm/",
       "status": "posted",
       "verified": true
     }
