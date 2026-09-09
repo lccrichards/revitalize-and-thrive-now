@@ -1,34 +1,6 @@
 [
   {
     "date": "2026-07-30",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-30T19:05:59+0000",
-    "revitalize": {
-      "product": "The Mindset Bundle",
-      "price": "$49",
-      "theme": "mindset reset",
-      "angle": "education",
-      "ethnicity": "White",
-      "ig_post_id": "17870404050574091",
-      "ig_permalink": "https://www.instagram.com/p/DbbZoBIG-N6/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Midlife Mindset Code",
-      "price": "$39",
-      "theme": "mindset recalibration",
-      "angle": "education",
-      "ethnicity": "Latino",
-      "ig_post_id": "17936688012323671",
-      "ig_permalink": "https://www.instagram.com/p/DbbZoHRHWER/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-30",
     "slot": "evening",
     "timestamp_utc": "2026-07-30T23:34:31Z",
     "revitalize": {
@@ -2881,6 +2853,40 @@
       "status": "failed",
       "verified": false,
       "error": "Publish blocked by Claude Code auto-mode permission classifier (COMPOSIO_MULTI_EXECUTE_TOOL -> INSTAGRAM_POST_IG_USER_MEDIA denied twice, reason: \"Blocked by classifier\"). Caption/image prepared but never published. YouTube upload skipped since the underlying live-publish action is blocked by the same harness guardrail."
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "slot": "night",
+    "timestamp_utc": "2026-09-09T02:07:31+0000",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "South Asian",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_020610_75a3b83a-b547-4e64-9078-1c9ab3d6e62b.png",
+      "caption": "Rest doesn't always work when the life exhausting you hasn't changed. If lying down still feels like carrying a full mental list, that's not a personal failing — it's evidence you've been dependable for a long time, for a lot of people, without much left over for yourself.\n\nMany women in midlife notice this exact pattern: busy all day, wired all night, waking up just as tired as when they laid down. It's less about willpower and more about needing real support easing the body down before sleep even starts. You can't out-schedule exhaustion — at some point the nights have to actually count.\n\nThe Midlife Sleep Fix was built for exactly this — a guided, supportive approach to help you ease out of go-mode and into genuine rest, one small evening habit at a time. No overhaul required, no perfect routine, just a gentler way to close out your day and let your body finally settle.\n\nTonight is a good night to start. Your future rested self will thank you for it.\n\nThe Midlife Sleep Fix\n$39\nhttps://buy.stripe.com/cNieVcdy2eXKbriel5aAw05\n\nSleep well tonight, friend. You've earned it. 🌙✨\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #MidlifeSleep #BetterSleepHabits #BetterSleep #SleepHealth #SleepBetter #FeelRested #TiredNoMore #WomenWellness #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman",
+      "ig_post_id": "18120530809906512",
+      "ig_permalink": "https://www.instagram.com/p/DdDJqb-jewt/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "theme": "sleep recovery",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "Latino",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_020613_e5d9b9b0-f9a6-483f-bf9d-105cb344e098.png",
+      "caption": "Rest doesn't work when the pace of your life hasn't changed. If you're lying awake replaying tomorrow's list, that's not weakness — it's the cost of staying dependable for too long without a real recovery system behind you.\n\nGuys in this stage are noticing the same thing: another cup of coffee doesn't undo a bad night's sleep, and pushing harder during the day just borrows against tomorrow. Recovery has to start before your head hits the pillow, not after your alarm goes off.\n\nThe Sleep Recovery Protocol gives you a direct, no-fluff framework to actually wind down and recover overnight — real structure, not five random tips — so tomorrow you're operating, not just surviving on caffeine and willpower.\n\nStart tonight. Your edge depends on how you recover, not just how hard you push.\n\nSleep Recovery Protocol\n$39\nhttps://buy.stripe.com/4gM28qdy28zmdzqa4PaAw0n\n\nReset tonight.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensSleep #SleepRecovery #RestAndRecovery #DeepSleep",
+      "ig_post_id": "18130264831680223",
+      "ig_permalink": "https://www.instagram.com/p/DdDJqd0oLE-/",
+      "status": "posted",
+      "verified": true
     }
   }
 ]
