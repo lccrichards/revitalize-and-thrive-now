@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-07-31",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-31T19:44:57Z",
-    "revitalize": {
-      "product": "Nutrition Deep Dive",
-      "price": "$49",
-      "theme": "nutrition and meal planning",
-      "angle": "education",
-      "ethnicity": "Middle Eastern",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260731_112235_b2a53ae8-698a-4f80-918d-aa58bdd083ca.png",
-      "ig_post_id": "18120158533659927",
-      "ig_permalink": "https://www.instagram.com/p/DbeBOHLnRMs/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Testosterone and Stamina Meal Plan",
-      "price": "$39",
-      "theme": "nutrition for male hormones",
-      "angle": "education",
-      "ethnicity": "African American",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260731_112241_46fa20fb-593d-401f-9c27-3be6672b9d89.png",
-      "ig_post_id": "18328715242259491",
-      "ig_permalink": "https://www.instagram.com/p/DbeBN5imySi/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
     "date": "2026-07-31 (Friday ET)",
     "slot": "video",
     "timestamp_utc": null,
@@ -2901,6 +2871,33 @@
       "yt_status": "not_uploaded",
       "yt_note": "Draft only per this routine's instructions; video_url available for manual upload.",
       "status": "draft_ready"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-09T23:00:00Z",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$97",
+      "theme": "energy restoration",
+      "angle": "aspirational_offer",
+      "ethnicity": "Latina",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_230604_ecc16f7a-c6b2-4e69-9629-bce7e2b1900e.png",
+      "status": "failed",
+      "verified": false,
+      "error": "Composio INSTAGRAM_POST_IG_USER_MEDIA call blocked by Claude Code auto-mode permission classifier before any publish attempt reached Instagram. No media was created or posted."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "energy and cognitive performance",
+      "angle": "aspirational_offer",
+      "ethnicity": "Middle Eastern",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260909_230607_e76c9a6d-02c8-4279-9b0d-597010560711.png",
+      "status": "failed",
+      "verified": false,
+      "error": "Composio INSTAGRAM_POST_IG_USER_MEDIA call blocked by Claude Code auto-mode permission classifier before any publish attempt reached Instagram. No media was created or posted."
     }
   }
 ]
