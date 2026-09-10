@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-07-31 (Friday ET)",
-    "slot": "night",
-    "timestamp_utc": "2026-08-01T02:07:35Z",
-    "revitalize": {
-      "product": "The Revitalize Circle Monthly Membership",
-      "price": "$97/month",
-      "theme": "nutrition and meal planning",
-      "angle": "urgency_social_proof",
-      "ethnicity": "African American",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260801_020554_966c99f0-3234-495a-871d-f3dff9f186fe.png",
-      "ig_post_id": "18485451982110094",
-      "ig_permalink": "https://www.instagram.com/p/DbeurZNDSdM/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Sleep Recovery Protocol",
-      "price": "$39",
-      "theme": "nutrition for male hormones",
-      "angle": "urgency_social_proof",
-      "ethnicity": "African American",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260801_020555_ba35819b-3205-4799-837f-5532959d4d0e.png",
-      "ig_post_id": "18137881129586518",
-      "ig_permalink": "https://www.instagram.com/p/DbeuoWdjWM0/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
     "date": "2026-08-01",
     "slot": "morning",
     "timestamp_utc": "2026-08-01T11:51:13Z",
@@ -2922,6 +2892,41 @@
       "ig_permalink": "https://www.instagram.com/p/DdGtqwUG_l6/",
       "status": "posted",
       "verified": true
+    }
+  },
+  {
+    "date": "2026-09-10 (Thursday ET)",
+    "slot": "video",
+    "timestamp_utc": "2026-09-10T16:14:59Z",
+    "status": "draft_ready",
+    "note": "Draft only \u2014 not published live. Review and publish manually (Instagram app, Composio dashboard) or approve in a live chat session.",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$27/month",
+      "theme": "mindset reset",
+      "angle": "reel",
+      "emotional_angle": "body_first_nervous_system",
+      "ethnicity": "Latina",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260910_160957_a1e571c4-51f0-49a4-a580-336c5423dac7.mp4",
+      "ig_creation_id": "17920702143431674",
+      "caption": "Your mind may not be where healing begins. Some days your body needs proof that it's safe before your thoughts can catch up \u2014 and that isn't weakness, that's just how we're built.\n\nIf you've been trying to think your way out of stress, overwhelm, or a mind that won't slow down, here's a gentler truth: sometimes the body has to lead first. A few slow breaths. A hand resting on your chest. A moment where nothing is being asked of you.\n\nInside The Revitalize Circle, we practice small resets together every week \u2014 simple nervous-system practices, real community, and steady support that doesn't disappear after one workshop or one good week.\n\nYou don't need to overhaul your whole life tonight. You just need a place to come back to, again and again, while you rebuild.\n\nThe Revitalize Circle Monthly Membership\n$27/month\nhttps://buy.stripe.com/9B6cN465AcPCanedh1aAw0u\n\nCome sit with us. \ud83c\udf19\u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #MidlifeMindset #MindsetReset #WomenEmpowerment #LifeAfter45 #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #RevitalizeCircle #WellnessTribe",
+      "status": "draft_ready"
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$197",
+      "theme": "mindset recalibration",
+      "angle": "reel",
+      "emotional_angle": "body_first_nervous_system",
+      "ethnicity": "East Asian",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260910_161001_0bbe89fb-3858-416b-abbc-99f715a5a7aa.mp4",
+      "ig_creation_id": "18112265162076162",
+      "caption": "Your mind may not be where recovery begins. Some days your body needs to stand down before your thoughts can think straight \u2014 that's not weakness, that's biology.\n\nMost guys try to think their way out of stress. It doesn't work that way. The body has to settle first \u2014 breath, posture, a few minutes where you're not reacting to everything.\n\nThe Reclaim Masterclass breaks down the framework I actually use to reset before making any real decision \u2014 the mechanics behind why focus and drive slip under pressure, and the practical moves that bring them back.\n\nThis isn't a pep talk. It's mechanism.\n\nReclaim Masterclass\n$197\nhttps://buy.stripe.com/fZu6oGbpUbLy52U1yjaAw0j\n\nBuild the framework tonight.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensMindset #MindsetCode #MentalStrength",
+      "youtube_title": "The Framework Behind the Reclaim Masterclass",
+      "youtube_description": "Your mind may not be where recovery begins. Some days your body needs to stand down before your thoughts can think straight \u2014 that's not weakness, that's biology.\n\nMost guys try to think their way out of stress. It doesn't work that way. The body has to settle first \u2014 breath, posture, a few minutes where you're not reacting to everything.\n\nThe Reclaim Masterclass breaks down the framework I actually use to reset before making any real decision \u2014 the mechanics behind why focus and drive slip under pressure, and the practical moves that bring them back.\n\nThis isn't a pep talk. It's mechanism.\n\nReclaim Masterclass\n$197\nhttps://buy.stripe.com/fZu6oGbpUbLy52U1yjaAw0j\n\nBuild the framework tonight.\n\nLearn more: https://buy.stripe.com/fZu6oGbpUbLy52U1yjaAw0j",
+      "yt_status": "not_uploaded",
+      "yt_note": "Draft only per this routine's instructions; video_url available for manual upload.",
+      "status": "draft_ready"
     }
   }
 ]
