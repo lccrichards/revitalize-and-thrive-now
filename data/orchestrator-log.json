@@ -1,38 +1,6 @@
 [
   {
     "date": "2026-07-31 (Friday ET)",
-    "slot": "evening",
-    "timestamp_utc": "2026-07-31T23:34:52Z",
-    "revitalize": {
-      "product": "Complete Wellness Bundle",
-      "price": "$149",
-      "theme": "nutrition and meal planning",
-      "angle": "aspirational_offer",
-      "ethnicity": "Middle Eastern",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260731_233331_0ba09176-d037-441f-b685-f470bcc7f349.png",
-      "ig_post_id": "18110056438800746",
-      "ig_permalink": "https://www.instagram.com/p/DbedMzxmzrX/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "nutrition for male hormones",
-      "angle": "aspirational_offer",
-      "ethnicity": "Middle Eastern",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260731_233332_ca177a58-0cf4-457f-a288-cf95b62be1f7.png",
-      "ig_post_id": "17885602992447563",
-      "ig_permalink": "https://www.instagram.com/p/DbedMzuHd6g/",
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-31 (Friday ET)",
     "slot": "night",
     "timestamp_utc": "2026-08-01T02:07:35Z",
     "revitalize": {
@@ -2920,6 +2888,40 @@
       "status": "failed",
       "verified": false,
       "error": "Composio INSTAGRAM_POST_IG_USER_MEDIA call blocked by Claude Code auto-mode permission classifier before any publish attempt reached Instagram (retried once per routine, blocked both times). No media was created or posted."
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-10T11:19:58Z",
+    "revitalize": {
+      "product": "The Mindset Bundle",
+      "price": "$97",
+      "theme": "mindset reset",
+      "angle": "education",
+      "emotional_angle": "body_first_nervous_system",
+      "ethnicity": "South Asian",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260910_111831_32ca1ac5-5c30-47e3-afec-ac7bc04ac469.png",
+      "ig_creation_id": "17920657284431674",
+      "ig_post_id": "17881504095687771",
+      "ig_permalink": "https://www.instagram.com/p/DdGtq2Pm5Wx/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Midlife Mindset Code",
+      "price": "$39",
+      "theme": "mindset recalibration",
+      "angle": "education",
+      "emotional_angle": "body_first_nervous_system",
+      "ethnicity": "Latino",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260910_111835_bdc40e17-bbc4-43e3-8fef-04a39fe64272.png",
+      "ig_creation_id": "18112226948076162",
+      "ig_post_id": "18112359355828779",
+      "ig_permalink": "https://www.instagram.com/p/DdGtqwUG_l6/",
+      "status": "posted",
+      "verified": true
     }
   }
 ]
