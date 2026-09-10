@@ -2645,5 +2645,37 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-10 (Thursday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-10T23:34:52Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$97/month",
+      "theme": "mindset reset",
+      "angle": "aspirational_offer",
+      "ethnicity": "Asian American",
+      "compliant": true,
+      "ig_post_id": "17878620576691283",
+      "ig_permalink": "https://www.instagram.com/p/DdIByarm0-3/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$149",
+      "theme": "mindset recalibration",
+      "angle": "aspirational_offer",
+      "ethnicity": "White",
+      "compliant": true,
+      "ig_post_id": "18054026708568642",
+      "ig_permalink": "https://www.instagram.com/p/DdIByZymwEO/",
+      "yt_video_id": null,
+      "yt_status": "skipped",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
