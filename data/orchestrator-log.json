@@ -130,5 +130,39 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-11",
+    "day": "Friday",
+    "slot": "video",
+    "timestamp_utc": "2026-09-11T22:02:34Z",
+    "status": "draft_ready",
+    "note": "Draft only — not published live. Review and publish manually (Instagram app, Composio dashboard) or approve in a live chat session.",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "nutrition and meal planning",
+      "angle": "reel",
+      "emotional_angle": "emotional_duality",
+      "ethnicity": "East Asian",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260911_220215_f070bb0c-49d6-4101-86c5-5b42275b4f84.mp4",
+      "ig_creation_id": "17920891638431674",
+      "caption": "You can be grateful for your life and still have days that feel heavy — and that doesn't make you ungrateful, weak, or broken. 🤍\n\nSo many of us learned to say \"I'm fine\" when what we meant was \"I don't know where to begin.\" Both things can be true at once: the gratitude and the ache. Making space for that duality is part of the journey, not a detour from it.\n\nThis is why I built my days around the Complete Wellness Bundle — it's the resource I return to for gentle support with sleep, mindset, and nourishment, all in one place. It's not about erasing hard days; it's about having something steady to lean on through them.\n\nIf you've been holding two feelings at once, you're not alone, and you don't have to sort it out today.\n\nComplete Wellness Bundle\n$297\nhttps://buy.stripe.com/3cI5kC0LgaHu7b2el5aAw0d\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #FeelAmazingAgain #MidlifeSisterhood #WellnessTribe",
+      "status": "draft_ready"
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "nutrition for male hormones",
+      "angle": "reel",
+      "emotional_angle": "emotional_duality",
+      "ethnicity": "White",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260911_220225_033ab90f-902c-4e65-8d4c-24562e9ce675.mp4",
+      "ig_creation_id": "18112491782076162",
+      "caption": "Strength and grief can live in the same body. Feeling both doesn't make you weak — it makes you human.\n\nMost guys don't talk about the days that feel heavy under a life that looks good on paper. You don't have to sort that out before you keep building.\n\nThe Complete Reclaim Reset Bundle is the system I run daily — focus, recovery, and mindset work built for men rebuilding their edge in midlife. No fluff. Just the practices that keep me sharp and steady.\n\nIf you're carrying more than you show, you're not alone. Start where you are.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift",
+      "youtube_title": "The Daily System Behind Staying Sharp in Midlife",
+      "youtube_description": "Strength and grief can live in the same body. Feeling both doesn't make you weak — it makes you human.\n\nMost guys don't talk about the days that feel heavy under a life that looks good on paper. You don't have to sort that out before you keep building.\n\nThe Complete Reclaim Reset Bundle is the system I run daily — focus, recovery, and mindset work built for men rebuilding their edge in midlife. No fluff. Just the practices that keep me sharp and steady.\n\nIf you're carrying more than you show, you're not alone. Start where you are.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift\n\nLearn more: https://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i",
+      "status": "draft_ready"
+    }
   }
 ]
