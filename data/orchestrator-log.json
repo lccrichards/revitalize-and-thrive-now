@@ -2645,5 +2645,42 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-11 (Friday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$149",
+      "theme": "nutrition and meal planning",
+      "angle": "aspirational_offer",
+      "ig_user_id": "27164026169935796",
+      "media_id": "18128328907689295",
+      "permalink": "https://www.instagram.com/p/DdKmmK7G3S4/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "verified": true,
+      "status": "posted",
+      "note": "Posted live via Composio INSTAGRAM_POST_IG_USER_MEDIA -> PUBLISH; verified via INSTAGRAM_GET_IG_MEDIA."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "nutrition for male hormones",
+      "angle": "aspirational_offer",
+      "ig_user_id": "27634679816148097",
+      "media_id": "18025229846886864",
+      "permalink": "https://www.instagram.com/p/DdKmmKfHYvn/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "verified": true,
+      "status": "posted",
+      "note": "Posted live via Composio INSTAGRAM_POST_IG_USER_MEDIA -> PUBLISH; verified via INSTAGRAM_GET_IG_MEDIA.",
+      "youtube": {
+        "yt_status": "posted",
+        "video_id": "MFz3VwtQZdA",
+        "url": "https://www.youtube.com/watch?v=MFz3VwtQZdA",
+        "channel_id": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+        "privacy_status": "public"
+      }
+    }
   }
 ]
