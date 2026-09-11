@@ -100,5 +100,35 @@
     "ig_permalink": "https://www.instagram.com/p/DdJUEnyIKPs/",
     "status": "posted",
     "verified": true
+  },
+  {
+    "date": "2026-09-11",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-11T19:09:15Z",
+    "revitalize": {
+      "product": "Hormone-Balancing Meal Plan",
+      "price": "$39",
+      "theme": "nutrition and meal planning",
+      "angle": "supportive_solution",
+      "emotional_angle": "emotional_duality",
+      "ethnicity": "Latina",
+      "ig_post_id": "17946203094315804",
+      "ig_permalink": "https://www.instagram.com/p/DdKIKdNnbiM/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Testosterone and Stamina Meal Plan",
+      "price": "$39",
+      "theme": "nutrition for male hormones",
+      "angle": "supportive_solution",
+      "emotional_angle": "emotional_duality",
+      "ethnicity": "South Asian",
+      "ig_post_id": "17931864309400370",
+      "ig_permalink": "https://www.instagram.com/p/DdKIKgLG8Dk/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
