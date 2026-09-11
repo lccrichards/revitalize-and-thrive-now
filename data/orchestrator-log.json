@@ -2646,4 +2646,69 @@
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
   }
+,
+  {
+    "date": "2026-09-08 (Monday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$149",
+      "theme": "hormone balance",
+      "angle": "aspirational_offer",
+      "image_job_id": "928c28c9-b9e7-4ab1-a6cb-ef86519a6431",
+      "ig_media_id": "17973026487067912",
+      "ig_permalink": "https://www.instagram.com/p/DdJtzvYoGsU/",
+      "posted_via": "composio",
+      "status": "posted",
+      "verified": true,
+      "timestamp": "2026-09-11T15:18:47+0000",
+      "note": "Campaign restart - first posts after August 6 outage. Direct Composio publishing (Buffer API key unavailable). Meta-compliant aspirational offer with full CTA."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "testosterone optimization",
+      "angle": "aspirational_offer",
+      "image_job_id": "3e528265-fbbc-462e-89b0-4a1c71cee9e6",
+      "ig_media_id": "18335089381262297",
+      "ig_permalink": "https://www.instagram.com/p/DdJtz1iG9Rx/",
+      "posted_via": "composio",
+      "status": "posted",
+      "verified": true,
+      "timestamp": "2026-09-11T15:18:47+0000",
+      "note": "Campaign restart - first posts after August 6 outage. Direct Composio publishing."
+    }
+  },
+  {
+    "date": "2026-09-09 (Tuesday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "aspirational_offer",
+      "image_job_id": "3de68a0c-1cbb-4e98-a533-f9dd4872887f",
+      "ig_media_id": "18099819236574579",
+      "ig_permalink": "https://www.instagram.com/p/DdJtz1CoJiV/",
+      "posted_via": "composio",
+      "status": "posted",
+      "verified": true,
+      "timestamp": "2026-09-11T15:18:47+0000",
+      "note": "Campaign restart continuation. Meta-compliant aspirational offer with emoji and full CTA."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "sleep recovery",
+      "angle": "aspirational_offer",
+      "image_job_id": "59743668-03e6-42d7-a1af-8dcdb4adaca4",
+      "ig_media_id": "18006598211967678",
+      "ig_permalink": "https://www.instagram.com/p/DdJtz4Amymn/",
+      "posted_via": "composio",
+      "status": "posted",
+      "verified": true,
+      "timestamp": "2026-09-11T15:18:47+0000",
+      "note": "Campaign restart continuation. Direct Composio publishing."
+    }
+  }
 ]
