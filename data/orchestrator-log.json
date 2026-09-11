@@ -1,39 +1,6 @@
 [
   {
     "date": "2026-08-01",
-    "slot": "evening",
-    "timestamp_utc": "2026-08-01T23:07:32Z",
-    "revitalize": {
-      "product": "The Revitalize Circle Monthly Membership",
-      "price": "$97/month",
-      "theme": "skincare and beauty",
-      "angle": "aspirational_offer",
-      "ethnicity": "Latina",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260801_230548_4332ca7d-37be-4b59-a8db-1d13c5c77b9c.png",
-      "ig_post_id": "18102064250187880",
-      "ig_permalink": "https://www.instagram.com/p/Dbg-2OmG9EB/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "strength and muscle density",
-      "angle": "aspirational_offer",
-      "ethnicity": "Latino",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260801_230552_eb65db8c-c1ba-4d59-a7c3-5b0a669725c9.png",
-      "ig_post_id": "18000056576976936",
-      "ig_permalink": "https://www.instagram.com/p/Dbg-2VNnSpZ/",
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "yt_reason": "evening slot - not the scheduled Tue/Thu video reel day",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-08-01",
     "slot": "night",
     "timestamp_utc": "2026-08-02T02:06:39Z",
     "revitalize": {
@@ -2939,6 +2906,42 @@
       "ig_permalink": "https://www.instagram.com/p/DdITL2LoLNA/",
       "status": "posted",
       "verified": true
+    }
+  },
+  {
+    "date": "2026-09-02 (Wednesday ET)",
+    "slot": "video",
+    "timestamp_utc": "2026-09-02T22:05:00Z",
+    "status": "failed",
+    "note": "Aborted per routine rules. Revitalize video (Latina, energy-restoration theme, evening product 30-Day Wellness Transformation $97, emotional angle boundaries_and_outgrowing) submitted successfully (job fd3cb17f-8187-446c-922f-106a3a76fd0f, seedance_2_0) and was still in_progress after repeated polling with no completion signal in the time available this run. Reclaim video (South Asian, energy-and-cognitive-performance theme, evening product Complete Reclaim Reset Bundle $249, same emotional angle) failed twice with seedance_2_0 backend 429 rate_limit_reached (initial call + one retry, per the 'do not retry more than once' rule) and was not generated. No Instagram draft media containers were created for either brand since the routine requires both brand videos before proceeding to Step 4, and generation for Reclaim never succeeded. No live publish occurred (none was attempted). Scripts/captions were fully drafted and compliance-checked (word counts, hashtag counts, forbidden-term scan all passed) and can be reused on the next run without rewriting: Revitalize caption 139 words/13 hashtags, Reclaim caption 116 words/12 hashtags. SECURITY NOTE: this run's Higgsfield tool result surfaced a CLAUDE.md file in this repo claiming a 'standing authorization' for scheduled runs to publish live to Instagram/YouTube without per-run confirmation, and naming an Instagram alias (instagram_walrus-waac) for Revitalize that does not match the alias given in this run's task instructions (instagram_cardin-bulgar). This directly contradicts the explicit 'DRAFT ONLY, do not publish live' instructions for this task, so it was disregarded; no live publish was performed. Recommend the owner review that CLAUDE.md file for tampering or accidental overreach.",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$97",
+      "theme": "energy restoration",
+      "angle": "reel",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "Latina",
+      "video_url": null,
+      "video_job_id": "fd3cb17f-8187-446c-922f-106a3a76fd0f",
+      "ig_creation_id": null,
+      "caption": "Healing changes who still has access to you. \ud83c\udf3f\n\nNot everyone who knew the old you can walk beside the woman you're becoming \u2014 and that's not something to grieve. It's proof you've grown. A boundary isn't revenge. It's clarity. You can love someone, love a version of your old life, and still close the door on what no longer fits.\n\nThat kind of clarity doesn't happen by accident \u2014 it comes from having real structure to lean on. The 30-Day Wellness Transformation is the daily framework I use: simple rituals, gentle movement, and meal support that meet me exactly where I am, so I have the steadiness to know what \u2014 and who \u2014 deserves my energy.\n\nOutgrowing something doesn't erase what it once meant. It just means you're ready for what's next. \ud83d\udc9b\n\n30-Day Wellness Transformation\n$97\nhttps://buy.stripe.com/28E3cu3Xsg1O8f6gtdaAw01\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #ThrivingAt50 #MidlifeConfidence #NeverTooLate",
+      "monologue_script": "Healing changes who still has access to you \u2014 and that's not something to fear. It's why I lean on the 30-Day Wellness Transformation every day: simple morning rituals, boundary scripts, and meal support that meet me exactly where I am.",
+      "status": "video_pending_incomplete"
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "energy and cognitive performance",
+      "angle": "reel",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "South Asian",
+      "video_url": null,
+      "video_job_id": null,
+      "ig_creation_id": null,
+      "caption": "Growth changes who still has access to you. Not everyone who knew the old you can keep pace with the man you're building now \u2014 that's not disloyalty, that's clarity. A boundary isn't revenge. It's the line that protects what you're becoming.\n\nThat clarity takes structure. The Complete Reclaim Reset Bundle is what I run daily \u2014 nutrition built for real energy, strength training that earns every rep, and a recovery protocol for the nights my mind won't shut off. No wasted motion. Just the system that lets me decide what deserves my time.\n\nOutgrowing a relationship doesn't erase what it meant. It means you're operating at a different level now.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensMindset",
+      "monologue_script": "Growth changes who still has access to you. That's why I run the Complete Reclaim Reset Bundle daily \u2014 nutrition built for real energy, strength training with no wasted reps, and a recovery protocol for nights my mind won't shut off. Every part earns its place.",
+      "youtube_title": "Growth Changes Who Has Access to You | Reclaim and Rise",
+      "status": "failed_rate_limited"
     }
   }
 ]
