@@ -2813,8 +2813,8 @@
     "date": "2026-09-10 (Thursday ET)",
     "slot": "video",
     "timestamp_utc": "2026-09-10T16:14:59Z",
-    "status": "draft_ready",
-    "note": "Draft only \u2014 not published live. Review and publish manually (Instagram app, Composio dashboard) or approve in a live chat session.",
+    "status": "posted",
+    "note": "Published live upon explicit owner approval in a live chat session (per this workflow's 'draft only, publish is a manual/human step' design). Verified via INSTAGRAM_GET_IG_MEDIA before logging.",
     "revitalize": {
       "product": "The Revitalize Circle Monthly Membership",
       "price": "$27/month",
@@ -2825,7 +2825,11 @@
       "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260910_160957_a1e571c4-51f0-49a4-a580-336c5423dac7.mp4",
       "ig_creation_id": "17920702143431674",
       "caption": "Your mind may not be where healing begins. Some days your body needs proof that it's safe before your thoughts can catch up \u2014 and that isn't weakness, that's just how we're built.\n\nIf you've been trying to think your way out of stress, overwhelm, or a mind that won't slow down, here's a gentler truth: sometimes the body has to lead first. A few slow breaths. A hand resting on your chest. A moment where nothing is being asked of you.\n\nInside The Revitalize Circle, we practice small resets together every week \u2014 simple nervous-system practices, real community, and steady support that doesn't disappear after one workshop or one good week.\n\nYou don't need to overhaul your whole life tonight. You just need a place to come back to, again and again, while you rebuild.\n\nThe Revitalize Circle Monthly Membership\n$27/month\nhttps://buy.stripe.com/9B6cN465AcPCanedh1aAw0u\n\nCome sit with us. \ud83c\udf19\u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #MidlifeMindset #MindsetReset #WomenEmpowerment #LifeAfter45 #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #RevitalizeCircle #WellnessTribe",
-      "status": "draft_ready"
+      "status": "posted",
+      "ig_post_id": "18020874872864122",
+      "ig_permalink": "https://www.instagram.com/reel/DdHPdjVDHtI/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "verified": true
     },
     "reclaim": {
       "product": "Reclaim Masterclass",
@@ -2841,8 +2845,12 @@
       "youtube_description": "Your mind may not be where recovery begins. Some days your body needs to stand down before your thoughts can think straight \u2014 that's not weakness, that's biology.\n\nMost guys try to think their way out of stress. It doesn't work that way. The body has to settle first \u2014 breath, posture, a few minutes where you're not reacting to everything.\n\nThe Reclaim Masterclass breaks down the framework I actually use to reset before making any real decision \u2014 the mechanics behind why focus and drive slip under pressure, and the practical moves that bring them back.\n\nThis isn't a pep talk. It's mechanism.\n\nReclaim Masterclass\n$197\nhttps://buy.stripe.com/fZu6oGbpUbLy52U1yjaAw0j\n\nBuild the framework tonight.\n\nLearn more: https://buy.stripe.com/fZu6oGbpUbLy52U1yjaAw0j",
       "yt_status": "not_uploaded",
       "yt_note": "Draft only per this routine's instructions; video_url available for manual upload.",
-      "status": "draft_ready"
-    }
+      "status": "posted",
+      "ig_post_id": "17894069622606755",
+      "ig_permalink": "https://www.instagram.com/reel/DdHPiXiDBEQ/",
+      "verified": true
+    },
+    "published_timestamp_utc": "2026-09-11T02:58:11Z"
   },
   {
     "date": "2026-09-10",
