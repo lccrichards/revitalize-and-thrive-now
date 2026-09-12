@@ -254,5 +254,36 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-12",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-12T23:08:05Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$27/month",
+      "theme": "wellness essentials",
+      "angle": "aspirational_offer",
+      "ethnicity": "Middle Eastern",
+      "ig_post_id": "18088498235233104",
+      "ig_permalink": "https://www.instagram.com/p/DdNIQtWG6Kl/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "strength and muscle density",
+      "angle": "aspirational_offer",
+      "ethnicity": "East Asian",
+      "ig_post_id": "18422404948150831",
+      "ig_permalink": "https://www.instagram.com/p/DdNIQuGm_Ny/",
+      "yt_video_id": null,
+      "yt_status": "skipped",
+      "yt_skip_reason": "ffmpeg not available in this environment",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
