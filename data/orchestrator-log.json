@@ -2645,5 +2645,38 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-12 (Saturday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$97/month",
+      "theme": "skincare and beauty",
+      "angle": "aspirational_offer",
+      "ethnicity": "East Asian",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260912_233330_ee0c2fd9-de27-428d-8daf-8141480cae69.png",
+      "media_id": "17906877708541593",
+      "permalink": "https://www.instagram.com/p/DdNLaWmHeo-/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "compliant": true,
+      "verified": true,
+      "status": "posted"
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "strength and muscle density",
+      "angle": "aspirational_offer",
+      "ethnicity": "White",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260912_233332_2a17654b-b038-42f0-87fb-4dfe9a6b7eed.png",
+      "media_id": "18108624986163265",
+      "permalink": "https://www.instagram.com/p/DdNLagFHe4u/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "compliant": true,
+      "verified": true,
+      "status": "posted",
+      "yt_status": "skipped"
+    }
   }
 ]
