@@ -194,5 +194,35 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-12",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-12T11:07:08+0000",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "wellness essentials",
+      "angle": "education",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "White",
+      "ig_post_id": "17904066165561939",
+      "ig_permalink": "https://www.instagram.com/p/DdL1y8-oMl6/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Strength Density and Longevity",
+      "price": "$39",
+      "theme": "strength and muscle density",
+      "angle": "education",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "African American",
+      "ig_post_id": "18201281575367548",
+      "ig_permalink": "https://www.instagram.com/p/DdL1y88G_rx/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
