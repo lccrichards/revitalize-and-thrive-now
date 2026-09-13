@@ -346,5 +346,36 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-13",
+    "day": "Sunday",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-13T19:07:17Z",
+    "revitalize": {
+      "product": "Fitness After 45 Guide",
+      "price": "$39",
+      "theme": "strength and fitness after 45",
+      "angle": "supportive_solution",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "South Asian",
+      "ig_post_id": "18124100359878688",
+      "ig_permalink": "https://www.instagram.com/p/DdPRiAFmy2n/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$197",
+      "theme": "drive and motivation",
+      "angle": "supportive_solution",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "African American",
+      "ig_post_id": "18338634349283389",
+      "ig_permalink": "https://www.instagram.com/p/DdPRiBUHVot/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
