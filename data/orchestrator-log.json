@@ -315,5 +315,36 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-13",
+    "day": "Sunday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-13T11:06:11Z",
+    "revitalize": {
+      "product": "Fitness After 45 Guide",
+      "price": "$39",
+      "theme": "strength and fitness after 45",
+      "angle": "education",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "East Asian",
+      "ig_post_id": "17876070231630725",
+      "ig_permalink": "https://www.instagram.com/p/DdOafz8FXaq/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Midlife Mindset Code",
+      "price": "$39",
+      "theme": "drive and motivation",
+      "angle": "education",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "Middle Eastern",
+      "ig_post_id": "18107596634243504",
+      "ig_permalink": "https://www.instagram.com/p/DdOafz9FdEI/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
