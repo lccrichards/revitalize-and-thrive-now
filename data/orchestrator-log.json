@@ -2645,5 +2645,35 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-13 (Sunday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "The 30-Day Wellness Exploration Workbook",
+      "price": "$79",
+      "theme": "strength and fitness after 45",
+      "angle": "aspirational_offer",
+      "image_job_id": "c0f2d798-e4c5-4ce3-b2ed-c08af05eb084",
+      "ig_post_id": "18092404280537594",
+      "fb_post_id": "auto-synced-from-instagram",
+      "permalink": "https://www.instagram.com/p/DdPwmPXGwiE/",
+      "status": "posted",
+      "verified": true,
+      "note": "brand-config.json's product URL (rivitalize.gumroad.com/l/nlkuz) is stale since the Aug 6 2026 Stripe migration (commit 21a7ab4) which consolidated to shop.html with Stripe checkout links and removed individual product pages -- verified live via revitalizeandthrivenow.com/shop.html and used the correct current URL (buy.stripe.com/28E3cu3Xsg1O8f6gtdaAw01) and current product name instead. KNOWN ISSUE: caption hashtags were sent %23-encoded per the posting tool's docstring but published literally as '%23Tag' instead of '#Tag' -- Instagram Graph API has no caption-edit endpoint for published media, so this could not be corrected programmatically; owner may want to edit the caption in the Instagram app."
+    },
+    "reclaim": {
+      "product": "The Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "drive and motivation",
+      "angle": "aspirational_offer",
+      "image_job_id": "8b84149d-ddab-47dd-9d7d-654eb47ce4f4",
+      "ig_post_id": "17995937199036941",
+      "permalink": "https://www.instagram.com/p/DdPwmTzG53k/",
+      "status": "posted",
+      "verified": true,
+      "yt_status": "not_attempted",
+      "note": "brand-config.json's product URL (rivitalize.gumroad.com/l/nxqlwr) is stale since the Aug 6 2026 site overhaul -- verified live via reclaimandrisenow.com and used the correct current Stripe URL (buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i) instead. YouTube upload skipped this run (best-effort, does not block IG logging per instructions) due to time/scope -- video generation + YouTube upload pipeline not exercised. KNOWN ISSUE: caption hashtags published literally as '%23Tag' instead of '#Tag' (see revitalize note); cannot be fixed via Graph API."
+    }
   }
 ]
