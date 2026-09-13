@@ -285,5 +285,35 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-12",
+    "slot": "night",
+    "timestamp_utc": "2026-09-13T02:07:12+0000",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "wellness essentials",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "South Asian",
+      "ig_post_id": "18168384907415105",
+      "ig_permalink": "https://www.instagram.com/p/DdNc0QYjbxX/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "theme": "strength and muscle density",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "White",
+      "ig_post_id": "17981544033085498",
+      "ig_permalink": "https://www.instagram.com/p/DdNc0PUDZ61/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
