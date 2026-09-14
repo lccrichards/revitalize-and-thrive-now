@@ -405,5 +405,36 @@
       "verified": false,
       "error": "Media container created (creation_id 18112813331076162) but publish step not attempted after revitalize leg was blocked by the auto-mode classifier; aborted to avoid posting only one brand for this slot."
     }
+  },
+  {
+    "date": "2026-09-14",
+    "day": "Monday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-14T11:17:45Z",
+    "revitalize": {
+      "product": "Hormone Reset Masterclass",
+      "price": "$197",
+      "theme": "hormone balance",
+      "angle": "education",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "East Asian",
+      "ig_post_id": "18094470893385713",
+      "ig_permalink": "https://www.instagram.com/p/DdRAmt2IGbf/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$197",
+      "theme": "testosterone optimization",
+      "angle": "education",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "South Asian",
+      "ig_post_id": "17928413097410053",
+      "ig_permalink": "https://www.instagram.com/p/DdRAmrzoGAk/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
