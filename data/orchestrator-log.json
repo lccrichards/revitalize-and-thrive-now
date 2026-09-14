@@ -2645,5 +2645,29 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-14 (Monday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-14T23:35:08Z",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$149",
+      "theme": "hormone balance",
+      "angle": "aspirational_offer",
+      "status": "blocked",
+      "verified": false,
+      "error": "Run halted before generation/posting: data/brand-config.json + data/orchestrator-config.json are stale against the live site. \"Complete Wellness Bundle\" ($149, rivitalize.gumroad.com/l/complete-wellness-bundle) no longer exists on shop.html -- the site was migrated from Gumroad to Stripe Payment Links and consolidated to a single shop page on 2026-08-06 (commits 21a7ab4, 995417f, 7ec726a). Current live bundles are \"Complete Midlife Reset\" $249 (buy.stripe.com/cNiaEWalQg1Ocvm7WHaAw0a) and \"Complete Collection\" $297 (buy.stripe.com/3cI5kC0LgaHu7b2el5aAw0d) -- neither matches the configured name/price, and picking one is a product/pricing decision left to the owner rather than assumed by the orchestrator. Posting the configured product+price+URL would put a nonexistent offer and a dead Gumroad link in front of real followers. No caption or image was generated; nothing was posted."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "testosterone optimization",
+      "angle": "aspirational_offer",
+      "status": "blocked",
+      "verified": false,
+      "error": "Run halted before generation/posting: data/brand-config.json points to rivitalize.gumroad.com/l/nxqlwr, but reclaim-and-rise-now/index.html was migrated to Stripe Payment Links on 2026-08-06 (commit 691b995). The Complete Reclaim Reset Bundle still exists at $249, but the correct live checkout URL is buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i, not the configured Gumroad link (which is dead). Posting the configured URL would send customers to a broken checkout link. No caption or image was generated; nothing was posted."
+    },
+    "note": "Additionally, no verified live post has gone out since 2026-07-28 (5+ weeks) -- every logged run since 2026-07-29 shows status generated_not_posted (BUFFER_API_KEY not set), and no log entries exist at all between 2026-08-06 and today, suggesting the orchestrator has not run on schedule. Recommend the owner reconcile data/brand-config.json and data/orchestrator-config.json product URLs/prices against the live Stripe catalog on both sites before the next scheduled run publishes live."
   }
 ]
