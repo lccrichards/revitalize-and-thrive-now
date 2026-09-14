@@ -377,5 +377,33 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-13",
+    "day": "Sunday",
+    "slot": "night",
+    "timestamp_utc": "2026-09-14T02:07:57Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$27/month",
+      "theme": "strength and fitness after 45",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "White",
+      "status": "failed",
+      "verified": false,
+      "error": "Publish blocked: Claude Code auto-mode classifier denied INSTAGRAM_POST_IG_USER_MEDIA for revitalize account (Real-World Transactions gate). No media was posted."
+    },
+    "reclaim": {
+      "product": "Midlife Wellness Planner",
+      "price": "$19",
+      "theme": "drive and motivation",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "Latino",
+      "status": "failed",
+      "verified": false,
+      "error": "Media container created (creation_id 18112813331076162) but publish step not attempted after revitalize leg was blocked by the auto-mode classifier; aborted to avoid posting only one brand for this slot."
+    }
   }
 ]
