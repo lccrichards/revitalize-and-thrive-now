@@ -656,5 +656,33 @@
       "verified": false,
       "error": "mcp__higgsfield__generate_image failed: 'Out of credits in the selected workspace.' No image was generated."
     }
+  },
+  {
+    "date": "2026-09-15",
+    "day": "Tuesday",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-15T23:12:00Z",
+    "status": "failed",
+    "note": "Both image generations skipped/failed (Higgsfield out of credits in the selected workspace; balance confirmed 1.36 credits via mcp__higgsfield__balance, image cost 1.5 credits via get_cost preflight; this is the third consecutive Higgsfield credit failure today after the afternoon and video slots). Not retried per routine instructions (no retry, no fallback to ugc-flow or local generation). No Instagram publish attempted for either brand. Captions were not generated since no images were available to post.",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "aspirational_offer",
+      "ethnicity": "White",
+      "status": "failed",
+      "verified": false,
+      "error": "mcp__higgsfield__generate_image failed: 'Out of credits in the selected workspace.' No image was generated."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "sleep recovery",
+      "angle": "aspirational_offer",
+      "ethnicity": "Middle Eastern",
+      "status": "failed",
+      "verified": false,
+      "error": "Skipped: mcp__higgsfield__generate_image failed for Revitalize with 'Out of credits in the selected workspace.' (shared Higgsfield workspace balance); not attempted separately."
+    }
   }
 ]
