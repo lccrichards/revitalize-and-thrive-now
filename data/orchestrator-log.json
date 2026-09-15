@@ -2645,5 +2645,37 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-15 (Tuesday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-15T23:34:18Z",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "aspirational_offer",
+      "caption_generated": true,
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "fb_post_id": null,
+      "status": "failed",
+      "verified": false,
+      "error": "Higgsfield image generation failed at submission for both brands: 'Out of credits on ultra (monthly) plan in Private workspace' (balance check: 1.36 credits remaining). Caption was drafted and Meta-compliant, but no image could be generated, so no post was created or published."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "sleep recovery",
+      "angle": "aspirational_offer",
+      "caption_generated": true,
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "yt_status": "skipped",
+      "status": "failed",
+      "verified": false,
+      "error": "Higgsfield image generation failed at submission for both brands: 'Out of credits on ultra (monthly) plan in Private workspace' (balance check: 1.36 credits remaining). Caption was drafted and Meta-compliant, but no image could be generated, so no post was created or published."
+    },
+    "note": "Evening 7 PM run: POST GUARD confirmed OK to post (no prior evening entry today). Captions for both brands were generated and passed the forbidden-claims check. Image generation blocked entirely by Higgsfield credit exhaustion -- account has effectively 0 usable credits, and use_unlim is not supported for this model. No Instagram publish attempt was made since no media existed. Action needed: top up Higgsfield credits (or check auto-refill) in the Higgsfield billing settings before the next scheduled slot can post. This also likely explains the gap in verified posts since 2026-08-06 in this log."
   }
 ]
