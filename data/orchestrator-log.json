@@ -563,5 +563,36 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-15",
+    "day": "Tuesday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-15T11:16:46Z",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "education",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "African American",
+      "ig_post_id": "18367340692212776",
+      "ig_permalink": "https://www.instagram.com/p/DdTlS5DIJ_F/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "theme": "sleep recovery",
+      "angle": "education",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "South Asian",
+      "ig_post_id": "18136846717626462",
+      "ig_permalink": "https://www.instagram.com/p/DdTlS69IEMe/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
