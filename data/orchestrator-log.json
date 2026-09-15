@@ -626,5 +626,35 @@
       "status": "failed",
       "error": "mcp__higgsfield__generate_video failed: 'Out of credits in the selected workspace.' No video was generated."
     }
+  },
+  {
+    "date": "2026-09-15",
+    "day": "Tuesday",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-15T19:05:40Z",
+    "status": "failed",
+    "note": "Both image generations failed immediately (Out of credits in the selected workspace; balance confirmed 1.36 credits via mcp__higgsfield__balance). Not retried per routine instructions. No Instagram publish attempted for either brand. Captions were drafted but not used.",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "supportive_solution",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "South Asian",
+      "status": "failed",
+      "verified": false,
+      "error": "mcp__higgsfield__generate_image failed: 'Out of credits in the selected workspace.' No image was generated."
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "theme": "sleep recovery",
+      "angle": "supportive_solution",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "White",
+      "status": "failed",
+      "verified": false,
+      "error": "mcp__higgsfield__generate_image failed: 'Out of credits in the selected workspace.' No image was generated."
+    }
   }
 ]
