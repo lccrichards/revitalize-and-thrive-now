@@ -2645,5 +2645,28 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-16 (Wednesday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-16T23:34:11Z",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$79",
+      "theme": "energy restoration",
+      "angle": "aspirational_offer",
+      "compliant": true,
+      "status": "blocked",
+      "note": "Meta-compliant aspirational evening caption drafted (190 words). Run blocked before image generation/posting: Higgsfield workspace out of credits (1.36 credits available, no other workspace). Not posted; not logged as posted per verify-before-log rule."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "energy and cognitive performance",
+      "angle": "aspirational_offer",
+      "compliant": true,
+      "status": "blocked",
+      "note": "Meta-compliant aspirational evening caption drafted (153 words). Run blocked before image generation/posting: Higgsfield workspace out of credits (1.36 credits available, no other workspace). Not posted; not logged as posted per verify-before-log rule."
+    }
   }
 ]
