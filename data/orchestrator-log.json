@@ -712,5 +712,33 @@
       "verified": false,
       "error": "Skipped: Higgsfield preflight confirmed insufficient shared workspace balance (1.36 credits vs 1.5 credit cost) before Revitalize leg was attempted; not attempted separately."
     }
+  },
+  {
+    "date": "2026-09-16",
+    "day": "Wednesday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-16T11:00:00Z",
+    "status": "failed",
+    "note": "Higgsfield out of credits in the selected workspace (balance confirmed 1.36 credits via mcp__higgsfield__balance; nano_banana_2 1:1 image cost confirmed 1.5 credits via get_cost preflight). This is the sixth consecutive Higgsfield credit failure across slots (video, afternoon, evening, night on 2026-09-15, and now morning on 2026-09-16). Not attempted/retried per routine instructions (no retry, no fallback to local file creation). No Instagram publish attempted for either brand. Captions were not generated since no images were available to post.",
+    "revitalize": {
+      "product": "Energy Restoration Guide",
+      "price": "$37",
+      "theme": "energy restoration",
+      "angle": "education",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "status": "failed",
+      "verified": false,
+      "error": "mcp__higgsfield__generate_image get_cost preflight: cost 1.5 credits > balance 1.36 credits. No image generated, no post attempted."
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$197",
+      "theme": "energy and cognitive performance",
+      "angle": "education",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "status": "failed",
+      "verified": false,
+      "error": "mcp__higgsfield__generate_image get_cost preflight: cost 1.5 credits > balance 1.36 credits. No image generated, no post attempted."
+    }
   }
 ]
