@@ -768,5 +768,41 @@
       "verified": false,
       "error": "Skipped: Higgsfield balance confirmed insufficient (1.36 credits vs 1.5 credit cost) before Revitalize leg was attempted; not attempted separately."
     }
+  },
+  {
+    "date": "2026-09-16",
+    "day": "Wednesday",
+    "slot": "video",
+    "timestamp_utc": "2026-09-16T22:05:00Z",
+    "status": "failed",
+    "note": "mcp__higgsfield__generate_video get_cost preflight for seedance_2_0 at 9:16, 12s: cost 54 credits per video (108 total for both brands) vs workspace balance of 1.36 credits confirmed via mcp__higgsfield__balance. This is the ninth consecutive Higgsfield credit failure across slots (video, afternoon, evening, night on 2026-09-15, and morning, afternoon, now video on 2026-09-16). Not attempted/retried per routine instructions (single call only, no retry, no fallback to ugc-flow or local file generation). No video generated, no Instagram draft or YouTube step attempted for either brand. Captions and monologue scripts were fully drafted and are recorded below so no writing work is lost.",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$97",
+      "theme": "energy restoration",
+      "angle": "reel",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "White",
+      "monologue_script": "Healing changes who still has access to you — and that's not something to apologize for. Inside my 30-Day Wellness Transformation, I walk through the daily practices I lean on for sleep, mindset, and boundaries.",
+      "caption": "Healing changes who still has access to you — and that's not something to apologize for. 🌿\n\nAs you grow into this next chapter, some relationships, habits, and even old versions of yourself may simply stop fitting the way they used to. That's not something to mourn. It's clarity.\n\nThis is why I built my days around the 30-Day Wellness Transformation — the program I return to for guided support with sleep, mindset, and the boundaries that protect my energy. It's not about doing everything at once. It's thirty days of steady, doable steps that help you notice what — and who — deserves your access.\n\nIf you've been feeling the pull to protect your peace lately, that instinct is worth listening to. You're allowed to close a door gently and keep walking forward. 💛\n\n30-Day Wellness Transformation\n$97\nhttps://buy.stripe.com/28E3cu3Xsg1O8f6gtdaAw01\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #FeelAmazingAgain #MidlifeSisterhood #WellnessTribe #ThrivingAt50",
+      "on_screen_beats": ["Healing changes who has access to you.", "30 days of sleep, mindset & boundaries support.", "Steady steps, not overwhelm.", "Link in bio — $97"],
+      "status": "failed",
+      "error": "mcp__higgsfield__generate_video get_cost preflight confirmed cost 54 credits for seedance_2_0 9:16 12s; workspace balance is 1.36 credits (insufficient). No video was generated."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "energy and cognitive performance",
+      "angle": "reel",
+      "emotional_angle": "boundaries_and_outgrowing",
+      "ethnicity": "Latino",
+      "monologue_script": "Growth changes who still has access to you — and that's not something to apologize for. The Complete Reclaim Reset Bundle is the system I run daily: focus, recovery, and mindset work, no fluff.",
+      "caption": "Growth changes who still has access to you. That's not something to apologize for.\n\nSome relationships, habits, and old versions of yourself stop fitting once you start building differently. That's not weakness. That's clarity.\n\nThe Complete Reclaim Reset Bundle is the system I run daily — focus work, recovery protocols, and mindset training built for men rebuilding their edge in midlife. I don't wait to feel ready, I run it anyway. No fluff. Just the structure that keeps me sharp and lets me set the boundaries that protect my time and energy.\n\nRespect someone and still close the door. Outgrowing a relationship doesn't erase what it meant.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift",
+      "on_screen_beats": ["Growth changes who has access to you.", "Daily focus, recovery & mindset training.", "No fluff. Just structure.", "Link in bio — $249"],
+      "youtube_title": "The Daily System Behind My Focus, Recovery & Boundaries",
+      "youtube_description": "Growth changes who still has access to you. That's not something to apologize for.\n\nSome relationships, habits, and old versions of yourself stop fitting once you start building differently. That's not weakness. That's clarity.\n\nThe Complete Reclaim Reset Bundle is the system I run daily — focus work, recovery protocols, and mindset training built for men rebuilding their edge in midlife. I don't wait to feel ready, I run it anyway. No fluff. Just the structure that keeps me sharp and lets me set the boundaries that protect my time and energy.\n\nRespect someone and still close the door. Outgrowing a relationship doesn't erase what it meant.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift\n\nLearn more: https://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i",
+      "status": "failed",
+      "error": "Skipped: Higgsfield get_cost preflight confirmed insufficient workspace balance (1.36 credits vs 54 credit cost per video) before Revitalize leg was attempted; not attempted separately."
+    }
   }
 ]
