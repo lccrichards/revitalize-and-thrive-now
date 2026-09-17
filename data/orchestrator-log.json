@@ -2645,5 +2645,29 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-17 (Thursday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-17T23:35:04Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$97/month",
+      "theme": "mindset reset",
+      "angle": "aspirational_offer",
+      "status": "failed",
+      "error": "Higgsfield image generation could not run: workspace balance is 1.36 credits, below the 1.5-credit cost of a single nano_banana_2 image. No image container was created, so Instagram publish was never attempted.",
+      "verified": false
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$149",
+      "theme": "mindset recalibration",
+      "angle": "aspirational_offer",
+      "status": "failed",
+      "error": "Higgsfield image generation could not run: workspace balance is 1.36 credits, below the 1.5-credit cost of a single nano_banana_2 image. No image container was created, so Instagram publish was never attempted.",
+      "verified": false
+    },
+    "note": "Instagram/Facebook connections were confirmed ACTIVE via Composio for both accounts; the sole blocker was insufficient Higgsfield credits. No prior evening/other-slot log entries exist between 2026-08-06 and 2026-09-17 -- the orchestrator appears to have been dormant for ~6 weeks before this run."
   }
 ]
