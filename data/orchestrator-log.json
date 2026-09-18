@@ -1039,5 +1039,33 @@
     "timestamp_utc": "2026-09-18T19:05:22Z",
     "status": "failed",
     "error": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the 1.5 credit cost for nano_banana_2 at 1:1. Same shortfall has blocked every slot since 2026-09-15 afternoon (14+ consecutive failures). Needs credit top-up."
+  },
+  {
+    "date": "2026-09-18",
+    "day": "Friday",
+    "slot": "video",
+    "timestamp_utc": "2026-09-18T22:05:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits. seedance_2_0 at 9:16, 12s costs ~54 credits per video (~108 total for both brands) per prior get_cost preflight on 2026-09-16. This is the fifteenth consecutive Higgsfield credit failure across slots since 2026-09-15 afternoon (afternoon/evening/night 9/15; morning/video/afternoon/evening/night 9/16; morning/video/afternoon/evening/night 9/17; morning/afternoon/now video 9/18). Not attempted/retried per routine instructions (single balance check, no retry, no fallback to ugc-flow or local file generation). No video generated, no Instagram draft or YouTube step attempted for either brand. Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "nutrition and meal planning",
+      "angle": "reel",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "verified": false,
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, far below the ~54 credit cost for seedance_2_0 at 9:16, 12s."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "nutrition for male hormones",
+      "angle": "reel",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "verified": false,
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~54 credits per video) before either leg was attempted."
+    }
   }
 ]
