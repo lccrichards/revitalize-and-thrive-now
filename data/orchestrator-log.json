@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-12 (Saturday ET)",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-12T02:17:02Z",
-    "revitalize": {
-      "product": "Skincare and Beauty Protocol",
-      "price": "$39",
-      "theme": "skincare and beauty",
-      "angle": "education",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "IG media container created (creation_id 17911105818431674) but publish step was denied by Claude Code safety classifier: real-world irreversible publish action triggered from an automated background-task notification lacks verified user consent. Post was NOT published live."
-    },
-    "reclaim": {
-      "product": "Strength Density and Longevity",
-      "price": "$39",
-      "theme": "strength and muscle density",
-      "angle": "education",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "IG media container created (creation_id 18102152102076162) but publish step was denied by Claude Code safety classifier: real-world irreversible publish action triggered from an automated background-task notification lacks verified user consent. Post was NOT published live."
-    }
-  },
-  {
     "date": "2026-07-12 (Sunday ET)",
     "slot": "morning",
     "timestamp_utc": "2026-07-12T11:30:56Z",
@@ -2652,5 +2624,33 @@
       "error": "Scheduled trigger 'Reclaim & Rise \u2014 Afternoon Post (3 PM ET)' fired at 19:09 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
     },
     "note": "Afternoon trigger fired Sep 18 at 19:09 UTC. Blocked on COMPOSIO_API_KEY (and optionally ANTHROPIC_API_KEY for captions). Same blocker as Sep 7-8. Unified orchestrator ready (scripts/unified_orchestrator.py) but requires API key configuration in trigger environment. See ORCHESTRATOR_STATUS.md and ORCHESTRATOR_RESTORATION.md for recovery plan."
+  },
+  {
+    "date": "2026-09-18 (Friday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-18T23:04:00Z",
+    "revitalize": {
+      "product": "30-Day Bundle",
+      "price": "$249",
+      "theme": "Energy Restoration",
+      "angle": "transformation_cta",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Evening Post (7 PM ET)' fired at 23:04 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Bundle",
+      "price": "$299",
+      "theme": "Energy Restoration",
+      "angle": "transformation_cta",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Reclaim & Rise \u2014 Evening Post (7 PM ET)' fired at 23:04 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "note": "Evening trigger fired Sep 18 at 23:04 UTC. Blocked on COMPOSIO_API_KEY (and optionally ANTHROPIC_API_KEY for captions). Same blocker as afternoon trigger Sep 18, and Sep 7-8 window. Unified orchestrator ready (scripts/unified_orchestrator.py) but requires API key configuration in trigger environment. See ORCHESTRATOR_STATUS.md and ORCHESTRATOR_RESTORATION.md for recovery plan."
   }
 ]
