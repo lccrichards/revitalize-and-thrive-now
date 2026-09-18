@@ -2651,6 +2651,13 @@
       "verified": false,
       "error": "Scheduled trigger 'Reclaim & Rise \u2014 Evening Post (7 PM ET)' fired at 23:04 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
     },
-    "note": "Evening trigger fired Sep 18 at 23:04 UTC. Blocked on COMPOSIO_API_KEY (and optionally ANTHROPIC_API_KEY for captions). Same blocker as afternoon trigger Sep 18, and Sep 7-8 window. Unified orchestrator ready (scripts/unified_orchestrator.py) but requires API key configuration in trigger environment. See ORCHESTRATOR_STATUS.md and ORCHESTRATOR_RESTORATION.md for recovery plan."
+    "note": "Evening slot Sep 18: Instagram blocked (COMPOSIO_API_KEY), YouTube blocked (infrastructure not implemented). See ORCHESTRATOR_RESTORATION.md for implementation roadmap.",
+    "youtube": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Evening YouTube Post (7 PM ET)' fired at 23:09 UTC. YouTube posting infrastructure not implemented. Higgsfield video generation and YouTube upload API integration required."
+    }
   }
 ]
