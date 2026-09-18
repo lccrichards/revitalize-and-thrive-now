@@ -1,6 +1,6 @@
 {
-  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. To recreate any trigger, open a new Claude Code session and ask: 'Create the [morning/afternoon/evening/night] orchestrator trigger from data/triggers.json'. All four push results to branch claude/laughing-darwin-cQTwH — this is the actual live working branch (confirmed via git branch --show-current), NOT claude/mcp-image-generation-tool-oehbfz. NIGHT (10 PM) trigger was added to config on 2026-07-11 but its live trigger must still be created via mcp__Claude_Code_Remote__create_trigger — it is not ACTIVE until then (see status PENDING_CREATION below).",
-  "last_verified": "2026-07-10T14:40:00Z",
+  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. To recreate any trigger, open a new Claude Code session and ask: 'Create the [morning/afternoon/evening/night] orchestrator trigger from data/triggers.json'. All four push results to branch claude/youtube-revitalize-thrive-instagram-55csdg (confirmed via git branch --show-current on 2026-09-18). NIGHT (10 PM) trigger was added to config on 2026-07-11 but its live trigger must still be created via mcp__Claude_Code_Remote__create_trigger — it is not ACTIVE until then (see status PENDING_CREATION below). NOTE (Sep 18): Three ACTIVE triggers continue to fire reliably on schedule but are blocked on COMPOSIO_API_KEY not being set in trigger environment. Unified orchestrator ready in scripts/unified_orchestrator.py — requires trigger prompt updates and API key configuration.",
+  "last_verified": "2026-09-18T23:30:00Z",
   "triggers": [
     {
       "id": "trig_016rAJRivpmtaJnGSKPAWKCw",
