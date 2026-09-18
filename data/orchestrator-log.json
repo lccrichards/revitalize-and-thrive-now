@@ -1024,5 +1024,12 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-18",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-18T11:13:19Z",
+    "status": "failed",
+    "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the 1.5 credit cost for nano_banana_2 at 1:1. Same shortfall has blocked every slot since 2026-09-15 night (11+ consecutive failures). Needs credit top-up."
   }
 ]
