@@ -148,54 +148,47 @@ def composio_execute(api_key: str, action: str, entity_id: str, params: dict) ->
     return resp.json()
 
 
-def generate_caption(
-    client: anthropic.Anthropic,
-    brand: str,
-    product: dict,
-    theme: str,
-    slot: str,
-    tone: str,
-) -> str:
-    """Generate a Meta-compliant caption via Claude."""
+def generate_caption(client, brand: str, product: dict, theme: str, slot: str, tone: str) -> str:
+    """Generate a Meta-compliant caption via Claude API.
+
+    Falls back to simple template if client is unavailable.
+    """
+
+    if not client or not HAS_ANTHROPIC:
+        return f"{product['name']} ({product['price_short']})\n{product['url']}\n{product['cta']}"
 
     brand_info = {
         "revitalize": {
             "name": "Revitalize & Thrive Now",
-            "voice": "Warm, empowering, woman-to-woman. Short punchy lines, no filler. Speak to specific symptoms, not vague wellness.",
+            "voice": "Warm, empowering, woman-to-woman. Short punchy lines, no filler.",
         },
         "reclaim": {
             "name": "Reclaim & Rise",
-            "voice": "Direct, peer-to-peer, performance-focused. Short declarative statements. No fluff.",
+            "voice": "Direct, peer-to-peer, performance-focused. Short declarative statements.",
         }
     }[brand]
 
-    prompt = f"""You are copywriting for {brand_info['name']}.
-Brand voice: {brand_info['voice']}
+    prompt = f"""You are copywriting for {brand_info['name']}. Brand voice: {brand_info['voice']}
 
 Topic: {theme}
 Product: {product['name']} (${product['price_short']})
-URL: {product['url']}
-CTA: {product['cta']}
 Slot: {slot} ({tone})
 
-Write a single, punchy post caption (2-4 sentences max) that:
-1. Opens with a relatable moment or pain point
-2. Positions the product as a resource (not a cure/fix/guarantee)
-3. Includes product name, price, URL on separate lines
-4. Ends with a friendly, confident CTA (never pressure or hype)
-5. Includes 8-10 relevant hashtags
+Write a punchy caption (2-4 sentences max) with product name, price, URL on separate lines, CTA, and 8-10 hashtags.
+STRICT: No medical claims (no "fix", "cure", "heal", "guarantee", "proven", "limited time", "act now").
 
-STRICT: No medical claims (no "fix", "cure", "heal", "balance hormones", "boost testosterone", "guarantee", "proven", "limited time", "act now").
-No body/before-after claims. Educational and supportive tone only.
+Return ONLY the caption, nothing else."""
 
-Return ONLY the caption text, nothing else."""
-
-    msg = client.messages.create(
-        model="claude-opus-5",
-        max_tokens=500,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return msg.content[0].text.strip()
+    try:
+        msg = client.messages.create(
+            model="claude-opus-5",
+            max_tokens=500,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return msg.content[0].text.strip()
+    except Exception as e:
+        print(f"    [Caption API error]: {str(e)[:80]}")
+        return f"{product['name']} ({product['price_short']})\n{product['url']}\n{product['cta']}"
 
 
 def post_to_instagram(
@@ -305,17 +298,16 @@ def main():
     print(f"  Reclaim:    {rec_product['name']} ({rec_product['price_short']})")
 
     # Get API keys
-    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
     composio_key = os.getenv("COMPOSIO_API_KEY")
-
-    if not anthropic_key:
-        print("[ERROR] ANTHROPIC_API_KEY not set")
-        sys.exit(1)
     if not composio_key:
         print("[ERROR] COMPOSIO_API_KEY not set")
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=anthropic_key)
+    # Optional: Claude API for caption generation
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    client = None
+    if HAS_ANTHROPIC and anthropic_key:
+        client = anthropic.Anthropic(api_key=anthropic_key)
 
     # Generate captions
     print("\n  Generating captions...")
@@ -331,7 +323,10 @@ def main():
         print("    ✓ Captions ready")
     except Exception as e:
         print(f"    [Caption generation failed]: {e}")
-        sys.exit(1)
+        # Don't exit - use fallback captions
+        rev_caption = f"{rev_product['name']}\n{rev_product['url']}\n{rev_product['cta']}"
+        rec_caption = f"{rec_product['name']}\n{rec_product['url']}\n{rec_product['cta']}"
+        print("    Using fallback captions")
 
     # For now, use placeholder images (in a full implementation, call Higgsfield MCP)
     # This allows the posting workflow to work while we rebuild the image generation
