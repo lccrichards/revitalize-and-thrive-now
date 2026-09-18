@@ -7,6 +7,7 @@
       "name": "RTN + Reclaim — Morning Post (7 AM ET)",
       "cron_expression": "3 11 * * *",
       "status": "ACTIVE",
+      "platform": "instagram",
       "slot": "morning",
       "angle": "education",
       "prompt_summary": "Education/authority slot. Uses morning product from daily rotation. Generates Higgsfield women image for Revitalize, men image for Reclaim. Posts via Composio to both Instagram accounts using explicit account aliases (instagram_cardin-bulgar, instagram_medlar-slap). Verifies each post is live via INSTAGRAM_GET_IG_MEDIA before logging. No explicit Facebook call — Revitalize IG auto-syncs to Facebook."
@@ -16,6 +17,7 @@
       "name": "RTN + Reclaim — Afternoon Post (3 PM ET)",
       "cron_expression": "3 19 * * *",
       "status": "ACTIVE",
+      "platform": "instagram",
       "slot": "afternoon",
       "angle": "pain_point",
       "prompt_summary": "Pain-point slot. 3 PM crash content. Uses afternoon product from daily rotation. Same verified posting pattern as morning trigger."
@@ -25,9 +27,20 @@
       "name": "RTN + Reclaim — Evening Post (7 PM ET)",
       "cron_expression": "3 23 * * *",
       "status": "ACTIVE",
+      "platform": "instagram",
       "slot": "evening",
       "angle": "transformation_and_cta",
       "prompt_summary": "Conversion/transformation slot. Same verified posting pattern as morning/afternoon, plus best-effort YouTube video upload for Reclaim (does not block Instagram logging on failure)."
+    },
+    {
+      "id": "trig_01EhtmHDwVnLLkZHiXba7vMr",
+      "name": "Revitalize & Thrive — Evening YouTube Post (7 PM ET)",
+      "cron_expression": "3 23 * * *",
+      "status": "ACTIVE",
+      "platform": "youtube",
+      "slot": "evening",
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "prompt_summary": "YouTube video generation for Revitalize & Thrive Now channel. Fires at same time as evening Instagram trigger. Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 18, 2026)."
     },
     {
       "id": null,
