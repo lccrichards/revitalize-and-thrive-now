@@ -1,33 +1,6 @@
 [
   {
     "date": "2026-07-12 (Saturday ET)",
-    "slot": "night",
-    "timestamp_utc": "2026-07-12T02:11:00Z",
-    "revitalize": {
-      "product": "Skincare and Beauty Protocol",
-      "price": "$39",
-      "theme": "skincare and beauty",
-      "angle": "urgency_social_proof",
-      "ig_post_id": "17903165580464470",
-      "ig_permalink": "https://www.instagram.com/p/DarPIopoLh4/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Sleep Recovery Protocol",
-      "price": "$39",
-      "theme": "strength and muscle density",
-      "angle": "urgency_social_proof",
-      "ig_post_id": "18029115209831766",
-      "ig_permalink": "https://www.instagram.com/p/DarPI9VDV39/",
-      "status": "posted",
-      "verified": true
-    },
-    "note": "DUPLICATE WARNING: a night-slot entry for this same date already exists earlier in this log (timestamp_utc 2026-07-12T01:01:19Z, angle 'restoration_and_rest', same products, different permalinks). This run was not aware of that prior post and published a second night-slot post to both accounts for the same calendar day. Flagging for review."
-  },
-  {
-    "date": "2026-07-12 (Saturday ET)",
     "slot": "morning",
     "timestamp_utc": "2026-07-12T02:17:02Z",
     "revitalize": {
@@ -2651,5 +2624,33 @@
       "status": "pending_generation",
       "verified": false
     }
+  },
+  {
+    "date": "2026-09-18 (Friday ET)",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-18T19:13:32.686187Z",
+    "revitalize": {
+      "product": "Hormone-Balancing Meal Plan",
+      "price": "$39",
+      "theme": "nutrition and meal planning",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Afternoon Post (3 PM ET)' fired at 19:09 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "reclaim": {
+      "product": "Testosterone and Stamina Meal Plan",
+      "price": "$39",
+      "theme": "nutrition for male hormones",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Reclaim & Rise \u2014 Afternoon Post (3 PM ET)' fired at 19:09 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "note": "Afternoon trigger fired Sep 18 at 19:09 UTC. Blocked on COMPOSIO_API_KEY (and optionally ANTHROPIC_API_KEY for captions). Same blocker as Sep 7-8. Unified orchestrator ready (scripts/unified_orchestrator.py) but requires API key configuration in trigger environment. See ORCHESTRATOR_STATUS.md and ORCHESTRATOR_RESTORATION.md for recovery plan."
   }
 ]
