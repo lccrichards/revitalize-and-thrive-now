@@ -1,34 +1,6 @@
 [
   {
     "date": "2026-07-12 (Sunday ET)",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-12T11:30:56Z",
-    "revitalize": {
-      "product": "Fitness After 45 Guide",
-      "price": "$39",
-      "theme": "strength and fitness after 45",
-      "angle": "education",
-      "ethnicity": "South Asian",
-      "ig_post_id": "17931801855345611",
-      "ig_permalink": "https://www.instagram.com/p/DasPKguIIJH/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Midlife Mindset Code",
-      "price": "$39",
-      "theme": "drive and motivation",
-      "angle": "education",
-      "ethnicity": "Middle Eastern",
-      "ig_post_id": "17960635862966270",
-      "ig_permalink": "https://www.instagram.com/p/DasPKjQIEQ_/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-12 (Sunday ET)",
     "slot": "evening",
     "timestamp_utc": "2026-07-12T19:09:26Z",
     "revitalize": {
@@ -2659,5 +2631,40 @@
       "verified": false,
       "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Evening YouTube Post (7 PM ET)' fired at 23:09 UTC. YouTube posting infrastructure not implemented. Higgsfield video generation and YouTube upload API integration required."
     }
+  },
+  {
+    "date": "2026-09-18 (Friday ET)",
+    "slot": "night",
+    "timestamp_utc": "2026-09-19T02:02:20Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$membership",
+      "theme": "nutrition and meal planning",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Night slot triggers fire but Instagram orchestrator not yet active for this slot"
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$59",
+      "theme": "nutrition for male hormones",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Night slot triggers fire but Instagram orchestrator not yet active for this slot"
+    },
+    "youtube": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Night YouTube Post (10 PM ET)' fired at 02:02 UTC. YouTube posting infrastructure not implemented. Higgsfield video generation and YouTube upload API integration required."
+    },
+    "note": "Night slot Sep 18: YouTube trigger fired at 02:02:20 UTC (trig_014auPSM595MBQDbHT4sk6vr) but blocked on infrastructure not implemented."
   }
 ]
