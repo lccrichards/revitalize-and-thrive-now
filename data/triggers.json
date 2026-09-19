@@ -1,6 +1,6 @@
 {
-  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg. NOTE (Sep 19): Discovered active YouTube triggers — evening (1 for Revitalize), night (2 total: one for Revitalize, one for Reclaim). All YouTube triggers fire independently and require separate infrastructure (Higgsfield video generation + YouTube Data API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment.",
-  "last_verified": "2026-09-19T02:05:00Z",
+  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg. NOTE (Sep 19): Discovered active YouTube triggers — morning (1 for Revitalize), evening (1 for Revitalize), night (2 total: one for Revitalize, one for Reclaim). Total YouTube triggers: 4. All YouTube triggers fire independently and require separate infrastructure (Higgsfield video generation + YouTube Data API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment.",
+  "last_verified": "2026-09-19T11:05:00Z",
   "triggers": [
     {
       "id": "trig_016rAJRivpmtaJnGSKPAWKCw",
@@ -33,12 +33,24 @@
       "prompt_summary": "Conversion/transformation slot. Same verified posting pattern as morning/afternoon, plus best-effort YouTube video upload for Reclaim (does not block Instagram logging on failure)."
     },
     {
+      "id": "trig_01MmqEEocQ3iGNYqj4nW16RP",
+      "name": "Revitalize & Thrive — Morning YouTube Post (7 AM ET)",
+      "cron_expression": "3 11 * * *",
+      "status": "ACTIVE",
+      "platform": "youtube",
+      "slot": "morning",
+      "brand": "revitalize",
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "prompt_summary": "YouTube video generation for Revitalize & Thrive Now channel. Fires at 7 AM ET / 11:03 UTC. Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 19, 2026)."
+    },
+    {
       "id": "trig_01EhtmHDwVnLLkZHiXba7vMr",
       "name": "Revitalize & Thrive — Evening YouTube Post (7 PM ET)",
       "cron_expression": "3 23 * * *",
       "status": "ACTIVE",
       "platform": "youtube",
       "slot": "evening",
+      "brand": "revitalize",
       "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
       "prompt_summary": "YouTube video generation for Revitalize & Thrive Now channel. Fires at same time as evening Instagram trigger. Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 18, 2026)."
     },
