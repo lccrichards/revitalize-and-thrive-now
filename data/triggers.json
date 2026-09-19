@@ -1,6 +1,6 @@
 {
-  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. To recreate any trigger, open a new Claude Code session and ask: 'Create the [morning/afternoon/evening/night] orchestrator trigger from data/triggers.json'. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg (confirmed via git branch --show-current on 2026-09-18). NOTE (Sep 19): Discovered active YouTube triggers for evening (trig_01EhtmHDwVnLLkZHiXba7vMr) and night (trig_014auPSM595MBQDbHT4sk6vr) that fire independently of Instagram triggers. These require separate infrastructure implementation (Higgsfield video generation + YouTube API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment.",
-  "last_verified": "2026-09-19T02:10:00Z",
+  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg. NOTE (Sep 19): Discovered active YouTube triggers — evening (1 for Revitalize), night (2 total: one for Revitalize, one for Reclaim). All YouTube triggers fire independently and require separate infrastructure (Higgsfield video generation + YouTube Data API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment.",
+  "last_verified": "2026-09-19T02:05:00Z",
   "triggers": [
     {
       "id": "trig_016rAJRivpmtaJnGSKPAWKCw",
@@ -49,8 +49,20 @@
       "status": "ACTIVE",
       "platform": "youtube",
       "slot": "night",
+      "brand": "revitalize",
       "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
       "prompt_summary": "YouTube video generation for Revitalize & Thrive Now channel. Fires at 10 PM ET / 02:03 UTC (next day). Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 19, 2026)."
+    },
+    {
+      "id": "trig_017aVi2pFp4EsponwGQE2mqq",
+      "name": "Reclaim & Rise — Night YouTube Post (10 PM ET)",
+      "cron_expression": "3 2 * * *",
+      "status": "ACTIVE",
+      "platform": "youtube",
+      "slot": "night",
+      "brand": "reclaim",
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "prompt_summary": "YouTube video generation for Reclaim & Rise channel. Fires at 10 PM ET / 02:03 UTC (next day), same schedule as Revitalize night YouTube but separate triggers and channels. Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 19, 2026)."
     },
     {
       "id": null,
