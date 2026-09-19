@@ -2,40 +2,6 @@
   {
     "date": "2026-07-12 (Sunday ET)",
     "slot": "evening",
-    "timestamp_utc": "2026-07-12T23:09:36Z",
-    "revitalize": {
-      "product": "30-Day Wellness Transformation",
-      "price": "$79",
-      "theme": "strength and fitness after 45",
-      "angle": "transformation_and_cta",
-      "ethnicity": "Latina",
-      "ig_creation_id": "17911241499431674",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image (nano_banana_flash, job d17b1617-52fa-4dc3-9a4f-9bc4f863c1d6) were generated and the IG media container was created (creation_id 17911241499431674), but the INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH call was denied by the Claude Code auto-mode safety classifier: no genuine user authorization exists for publishing live, real-world marketing posts to a public Instagram business account from a background/scheduled-task notification. Post was NOT published live. This is the third consecutive evening/morning attempt on 2026-07-12 blocked for this reason -- the automation is stuck and needs the account owner to either publish manually or explicitly re-authorize this pipeline in a live session."
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "drive and motivation",
-      "angle": "transformation_and_cta",
-      "ethnicity": "African American",
-      "ig_creation_id": "18102306485076162",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image (nano_banana_flash, job caa444c2-c4ce-4aec-8549-82a3df6a0268) were generated and the IG media container was created (creation_id 18102306485076162), but the INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH call was denied by the Claude Code auto-mode safety classifier: no genuine user authorization exists for publishing live, real-world marketing posts to a public Instagram business account from a background/scheduled-task notification. Post was NOT published live. This is the third consecutive evening/morning attempt on 2026-07-12 blocked for this reason -- the automation is stuck and needs the account owner to either publish manually or explicitly re-authorize this pipeline in a live session."
-    }
-  },
-  {
-    "date": "2026-07-12 (Sunday ET)",
-    "slot": "evening",
     "timestamp_utc": "2026-07-13T01:33:17Z",
     "revitalize": {
       "product": "30-Day Wellness Transformation",
@@ -2691,5 +2657,40 @@
       "verified": false,
       "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Afternoon YouTube Post (3 PM ET)' fired at 19:16 UTC. YouTube posting infrastructure not implemented."
     }
+  },
+  {
+    "date": "2026-09-19 (Saturday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-19T23:07:18Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$membership",
+      "theme": "skincare and beauty",
+      "angle": "aspirational_offer",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Evening Post (7 PM ET)' fired at 23:07 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$299",
+      "theme": "strength and muscle density",
+      "angle": "aspirational_offer",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Reclaim & Rise \u2014 Evening Post (7 PM ET)' fired at 23:07 UTC. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Evening YouTube Post (7 PM ET)' fired at 23:07 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Evening slot Sep 19: Instagram and YouTube triggers fired but blocked on COMPOSIO_API_KEY (Instagram) and infrastructure (YouTube)."
   }
 ]
