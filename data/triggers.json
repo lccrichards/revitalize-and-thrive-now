@@ -1,6 +1,6 @@
 {
-  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. To recreate any trigger, open a new Claude Code session and ask: 'Create the [morning/afternoon/evening/night] orchestrator trigger from data/triggers.json'. All four push results to branch claude/youtube-revitalize-thrive-instagram-55csdg (confirmed via git branch --show-current on 2026-09-18). NIGHT (10 PM) trigger was added to config on 2026-07-11 but its live trigger must still be created via mcp__Claude_Code_Remote__create_trigger — it is not ACTIVE until then (see status PENDING_CREATION below). NOTE (Sep 18): Three ACTIVE triggers continue to fire reliably on schedule but are blocked on COMPOSIO_API_KEY not being set in trigger environment. Unified orchestrator ready in scripts/unified_orchestrator.py — requires trigger prompt updates and API key configuration.",
-  "last_verified": "2026-09-18T23:30:00Z",
+  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. To recreate any trigger, open a new Claude Code session and ask: 'Create the [morning/afternoon/evening/night] orchestrator trigger from data/triggers.json'. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg (confirmed via git branch --show-current on 2026-09-18). NOTE (Sep 19): Discovered active YouTube triggers for evening (trig_01EhtmHDwVnLLkZHiXba7vMr) and night (trig_014auPSM595MBQDbHT4sk6vr) that fire independently of Instagram triggers. These require separate infrastructure implementation (Higgsfield video generation + YouTube API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment.",
+  "last_verified": "2026-09-19T02:10:00Z",
   "triggers": [
     {
       "id": "trig_016rAJRivpmtaJnGSKPAWKCw",
@@ -41,6 +41,16 @@
       "slot": "evening",
       "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
       "prompt_summary": "YouTube video generation for Revitalize & Thrive Now channel. Fires at same time as evening Instagram trigger. Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 18, 2026)."
+    },
+    {
+      "id": "trig_014auPSM595MBQDbHT4sk6vr",
+      "name": "Revitalize & Thrive — Night YouTube Post (10 PM ET)",
+      "cron_expression": "3 2 * * *",
+      "status": "ACTIVE",
+      "platform": "youtube",
+      "slot": "night",
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "prompt_summary": "YouTube video generation for Revitalize & Thrive Now channel. Fires at 10 PM ET / 02:03 UTC (next day). Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 19, 2026)."
     },
     {
       "id": null,
