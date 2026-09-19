@@ -2691,6 +2691,13 @@
       "verified": false,
       "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Evening YouTube Post (7 PM ET)' fired at 23:07 UTC. YouTube posting infrastructure not implemented."
     },
-    "note": "Evening slot Sep 19: Instagram and YouTube triggers fired but blocked on COMPOSIO_API_KEY (Instagram) and infrastructure (YouTube)."
+    "note": "Evening slot Sep 19: Instagram blocked on COMPOSIO_API_KEY. YouTube triggers (Revitalize at 23:07:18, Reclaim at 23:10:57 UTC) both blocked on infrastructure.",
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Reclaim & Rise \u2014 Evening YouTube Post (7 PM ET)' fired at 23:10 UTC. YouTube posting infrastructure not implemented."
+    }
   }
 ]
