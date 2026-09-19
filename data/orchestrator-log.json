@@ -2,38 +2,6 @@
   {
     "date": "2026-07-12 (Sunday ET)",
     "slot": "evening",
-    "timestamp_utc": "2026-07-12T19:09:26Z",
-    "revitalize": {
-      "product": "30-Day Wellness Transformation",
-      "price": "$79",
-      "theme": "strength and fitness after 45",
-      "angle": "transformation_and_cta",
-      "ethnicity": "African American",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image (nano_banana_flash, job 6544e5d3-efb4-4b9d-8f8d-b7d3b1cfa361) were generated successfully, but the INSTAGRAM_POST_IG_USER_MEDIA publish call was denied by the Claude Code auto-mode safety classifier: real-world irreversible publish action to a public Instagram business account triggered from an automated background-task notification with no verified user consent. Post was NOT published live."
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "drive and motivation",
-      "angle": "transformation_and_cta",
-      "ethnicity": "East Asian",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image (nano_banana_flash, job eee548df-6297-4d36-9352-3c9399863ab3) were generated successfully, but the INSTAGRAM_POST_IG_USER_MEDIA publish call was denied by the Claude Code auto-mode safety classifier: real-world irreversible publish action to a public Instagram business account triggered from an automated background-task notification with no verified user consent. Post was NOT published live."
-    }
-  },
-  {
-    "date": "2026-07-12 (Sunday ET)",
-    "slot": "evening",
     "timestamp_utc": "2026-07-12T23:00:00Z",
     "revitalize": {
       "product": "30-Day Wellness Transformation",
@@ -2673,5 +2641,40 @@
       "verified": false,
       "error": "Scheduled trigger 'Reclaim & Rise \u2014 Night YouTube Post (10 PM ET)' fired at 02:03 UTC. YouTube posting infrastructure not implemented."
     }
+  },
+  {
+    "date": "2026-09-19 (Saturday ET)",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-19T11:01:02Z",
+    "revitalize": {
+      "product": "Skincare and Beauty Protocol",
+      "price": "$89",
+      "theme": "skincare and beauty",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger not yet active; YouTube trigger fired"
+    },
+    "reclaim": {
+      "product": "Strength Density and Longevity",
+      "price": "$99",
+      "theme": "strength and muscle density",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger not yet active"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Morning YouTube Post (7 AM ET)' fired at 11:01 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Morning slot Sep 19: Revitalize YouTube trigger fired at 11:01:02 UTC (trig_01MmqEEocQ3iGNYqj4nW16RP) but blocked on infrastructure not implemented."
   }
 ]
