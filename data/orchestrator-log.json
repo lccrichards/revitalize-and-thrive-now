@@ -2683,6 +2683,13 @@
       "verified": false,
       "error": "Scheduled trigger 'Reclaim & Rise \u2014 Afternoon YouTube Post (3 PM ET)' fired at 19:07 UTC. YouTube posting infrastructure not implemented."
     },
-    "note": "Afternoon slot Sep 19: Reclaim YouTube trigger fired at 19:07:59 UTC (trig_01B1niovsnnBBAK8wzqApscV) but blocked on infrastructure not implemented."
+    "note": "Afternoon slot Sep 19: Two YouTube triggers fired (Revitalize at 19:16:07 UTC, Reclaim at 19:07:59 UTC), both blocked on infrastructure not implemented.",
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Afternoon YouTube Post (3 PM ET)' fired at 19:16 UTC. YouTube posting infrastructure not implemented."
+    }
   }
 ]
