@@ -2,40 +2,6 @@
   {
     "date": "2026-07-12 (Sunday ET)",
     "slot": "evening",
-    "timestamp_utc": "2026-07-12T23:00:00Z",
-    "revitalize": {
-      "product": "30-Day Wellness Transformation",
-      "price": "$79",
-      "theme": "strength and fitness after 45",
-      "angle": "transformation_and_cta",
-      "ethnicity": "African American",
-      "ig_creation_id": "17911234062431674",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image (nano_banana_flash, job 7d5f46b2-1022-4ed8-8d96-9748ba503fc7) were generated and the IG media container was created (creation_id 17911234062431674), but the INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH call was denied by the Claude Code auto-mode safety classifier: real-world irreversible publish action to a public Instagram business account triggered from an automated background-task notification with no verified user consent. Post was NOT published live."
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "drive and motivation",
-      "angle": "transformation_and_cta",
-      "ethnicity": "East Asian",
-      "ig_creation_id": "18102295187076162",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image (nano_banana_flash, job 2e1ee4cb-7ecc-4881-85a3-de319167b0af) were generated and the IG media container was created (creation_id 18102295187076162), but the INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH call was denied by the Claude Code auto-mode safety classifier: real-world irreversible publish action to a public Instagram business account triggered from an automated background-task notification with no verified user consent. Post was NOT published live."
-    }
-  },
-  {
-    "date": "2026-07-12 (Sunday ET)",
-    "slot": "evening",
     "timestamp_utc": "2026-07-12T23:09:36Z",
     "revitalize": {
       "product": "30-Day Wellness Transformation",
@@ -2683,5 +2649,40 @@
       "verified": false,
       "error": "Scheduled trigger 'Reclaim & Rise \u2014 Morning YouTube Post (7 AM ET)' fired at 11:06 UTC. YouTube posting infrastructure not implemented."
     }
+  },
+  {
+    "date": "2026-09-19 (Saturday ET)",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-19T19:07:59Z",
+    "revitalize": {
+      "product": "Skincare and Beauty Protocol",
+      "price": "$89",
+      "theme": "skincare and beauty",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger not yet active"
+    },
+    "reclaim": {
+      "product": "Strength Density and Longevity",
+      "price": "$99",
+      "theme": "strength and muscle density",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger not yet active"
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Reclaim & Rise \u2014 Afternoon YouTube Post (3 PM ET)' fired at 19:07 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Afternoon slot Sep 19: Reclaim YouTube trigger fired at 19:07:59 UTC (trig_01B1niovsnnBBAK8wzqApscV) but blocked on infrastructure not implemented."
   }
 ]
