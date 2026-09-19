@@ -2665,6 +2665,13 @@
       "verified": false,
       "error": "Scheduled trigger 'Revitalize & Thrive \u2014 Night YouTube Post (10 PM ET)' fired at 02:02 UTC. YouTube posting infrastructure not implemented. Higgsfield video generation and YouTube upload API integration required."
     },
-    "note": "Night slot Sep 18: YouTube trigger fired at 02:02:20 UTC (trig_014auPSM595MBQDbHT4sk6vr) but blocked on infrastructure not implemented."
+    "note": "Night slot Sep 18: Two YouTube triggers fired (Revitalize at 02:02:20 UTC, Reclaim at 02:03:14 UTC), both blocked on infrastructure not implemented.",
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger 'Reclaim & Rise \u2014 Night YouTube Post (10 PM ET)' fired at 02:03 UTC. YouTube posting infrastructure not implemented."
+    }
   }
 ]
