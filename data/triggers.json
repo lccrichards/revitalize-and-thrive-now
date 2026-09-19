@@ -1,6 +1,6 @@
 {
-  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg. NOTE (Sep 19): Discovered active YouTube triggers — morning (2: Revitalize + Reclaim), evening (1 for Revitalize), night (2: Revitalize + Reclaim). Total YouTube triggers: 5. All YouTube triggers fire independently and require separate infrastructure (Higgsfield video generation + YouTube Data API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment. Pattern suggests afternoon YouTube triggers (Revitalize + Reclaim) likely also exist.",
-  "last_verified": "2026-09-19T11:10:00Z",
+  "note": "Persistent daily triggers created via mcp__Claude_Code_Remote__create_trigger. All push results to branch claude/youtube-revitalize-thrive-instagram-55csdg. NOTE (Sep 19): Discovered active YouTube triggers — morning (2: Revitalize + Reclaim), afternoon (1 Reclaim so far, Revitalize likely exists), evening (1 for Revitalize), night (2: Revitalize + Reclaim). Total YouTube triggers documented: 6 (7 if Revitalize afternoon exists). All YouTube triggers fire independently and require separate infrastructure (Higgsfield video generation + YouTube Data API v3). Instagram triggers (3 ACTIVE) continue firing reliably but blocked on COMPOSIO_API_KEY in trigger environment.",
+  "last_verified": "2026-09-19T19:15:00Z",
   "triggers": [
     {
       "id": "trig_016rAJRivpmtaJnGSKPAWKCw",
@@ -31,6 +31,17 @@
       "slot": "evening",
       "angle": "transformation_and_cta",
       "prompt_summary": "Conversion/transformation slot. Same verified posting pattern as morning/afternoon, plus best-effort YouTube video upload for Reclaim (does not block Instagram logging on failure)."
+    },
+    {
+      "id": "trig_01B1niovsnnBBAK8wzqApscV",
+      "name": "Reclaim & Rise — Afternoon YouTube Post (3 PM ET)",
+      "cron_expression": "3 19 * * *",
+      "status": "ACTIVE",
+      "platform": "youtube",
+      "slot": "afternoon",
+      "brand": "reclaim",
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "prompt_summary": "YouTube video generation for Reclaim & Rise channel. Fires at 3 PM ET / 19:03 UTC. Requires Higgsfield video generation and YouTube Data API v3 integration. Currently blocked on infrastructure implementation (discovered Sep 19, 2026)."
     },
     {
       "id": "trig_01MmqEEocQ3iGNYqj4nW16RP",
