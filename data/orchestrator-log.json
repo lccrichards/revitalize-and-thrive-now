@@ -2816,5 +2816,47 @@
       "error": "Scheduled trigger trig_01B1niovsnnBBAK8wzqApscV fired at 19:07 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Afternoon slot Sep 20: Two YouTube triggers fired (Revitalize at 19:15 UTC, Reclaim at 19:07 UTC), both blocked on infrastructure."
+  },
+  {
+    "date": "2026-09-20 (Sunday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-20T23:08:27.444338+00:00Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$membership",
+      "theme": "strength and fitness after 45",
+      "angle": "aspirational_offer",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_019RDVJEs19923UUsESafRWE fired. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$299",
+      "theme": "drive and motivation",
+      "angle": "aspirational_offer",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_019RDVJEs19923UUsESafRWE fired. COMPOSIO_API_KEY not configured. Orchestrator requires API key deployment."
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_01EhtmHDwVnLLkZHiXba7vMr fired at 23:08 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_01SS46tirzZEYMhZs3NyuRPw fired. YouTube posting infrastructure not implemented."
+    },
+    "note": "Evening slot Sep 20: Instagram blocked on API key. YouTube triggers (Revitalize at 23:08 UTC, Reclaim at 23:10 UTC) both blocked on infrastructure."
   }
 ]
