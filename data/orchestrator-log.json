@@ -2700,5 +2700,37 @@
       "verified": false,
       "error": "Scheduled trigger 'Reclaim & Rise \u2014 Night YouTube Post (10 PM ET)' fired at 02:07 UTC. YouTube posting infrastructure not implemented."
     }
+  },
+  {
+    "date": "2026-09-20 (Saturday ET)",
+    "slot": "night",
+    "timestamp_utc": "2026-09-20T02:09:41.374398+00:00Z",
+    "revitalize": {
+      "product": "Skincare and Beauty Protocol",
+      "price": "$89",
+      "theme": "skincare and beauty",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$59",
+      "theme": "strength and muscle density",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_014auPSM595MBQDbHT4sk6vr fired at 02:09 UTC. YouTube posting infrastructure not implemented. Higgsfield video generation and YouTube Data API v3 integration required."
+    }
   }
 ]
