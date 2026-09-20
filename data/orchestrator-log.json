@@ -2766,6 +2766,13 @@
       "verified": false,
       "error": "Scheduled trigger trig_01MmqEEocQ3iGNYqj4nW16RP fired at 11:05 UTC. YouTube posting infrastructure not implemented."
     },
-    "note": "Morning slot Sep 20: YouTube trigger fired; Instagram and YouTube both blocked on infrastructure/API key."
+    "note": "Morning slot Sep 20: Two YouTube triggers fired (Revitalize at 11:05 UTC, Reclaim at 11:09 UTC), both blocked on infrastructure.",
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_017RWFxxy6mGhKrZNgZAdYd2 fired at 11:09 UTC. YouTube posting infrastructure not implemented."
+    }
   }
 ]
