@@ -2732,5 +2732,40 @@
       "verified": false,
       "error": "Scheduled trigger trig_014auPSM595MBQDbHT4sk6vr fired at 02:09 UTC. YouTube posting infrastructure not implemented. Higgsfield video generation and YouTube Data API v3 integration required."
     }
+  },
+  {
+    "date": "2026-09-20 (Sunday ET)",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-20T11:05:31.198274+00:00Z",
+    "revitalize": {
+      "product": "Fitness After 45 Guide",
+      "price": "$39",
+      "theme": "strength and fitness after 45",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger not yet active"
+    },
+    "reclaim": {
+      "product": "Midlife Mindset Code",
+      "price": "$39",
+      "theme": "drive and motivation",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger not yet active"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_01MmqEEocQ3iGNYqj4nW16RP fired at 11:05 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Morning slot Sep 20: YouTube trigger fired; Instagram and YouTube both blocked on infrastructure/API key."
   }
 ]
