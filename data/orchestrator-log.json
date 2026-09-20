@@ -2774,5 +2774,47 @@
       "verified": false,
       "error": "Scheduled trigger trig_017RWFxxy6mGhKrZNgZAdYd2 fired at 11:09 UTC. YouTube posting infrastructure not implemented."
     }
+  },
+  {
+    "date": "2026-09-20 (Sunday ET)",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-20T19:08:08.561179+00:00Z",
+    "revitalize": {
+      "product": "Skincare and Beauty Protocol",
+      "price": "$89",
+      "theme": "skincare and beauty",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger not yet active"
+    },
+    "reclaim": {
+      "product": "Strength Density and Longevity",
+      "price": "$99",
+      "theme": "strength and muscle density",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger not yet active"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD fired. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "Scheduled trigger trig_01B1niovsnnBBAK8wzqApscV fired at 19:07 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Afternoon slot Sep 20: Two YouTube triggers fired, both blocked on infrastructure."
   }
 ]
