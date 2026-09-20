@@ -2645,5 +2645,26 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-20 (Sunday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "30-Day Wellness Transformation",
+      "price": "$79",
+      "theme": "strength and fitness after 45",
+      "angle": "aspirational_offer",
+      "status": "failed",
+      "note": "Caption drafted (Meta-compliant, ready to post) but image generation via Higgsfield failed: account out of credits (1.36 credits remaining on ultra plan; nano_banana_2 requires more, and unlimited-generation fallback is not supported for this model). No image was generated, so nothing was posted to Instagram."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "drive and motivation",
+      "angle": "aspirational_offer",
+      "status": "failed",
+      "note": "Caption drafted (Meta-compliant, ready to post) but image generation via Higgsfield failed: account out of credits (same failure as Revitalize, see above). No image was generated, so nothing was posted to Instagram."
+    },
+    "blocked_reason": "Higgsfield workspace out of image-generation credits (balance=1.36, plan=ultra). Requires the account owner to top up credits or upgrade before the orchestrator can generate images and publish."
   }
 ]
