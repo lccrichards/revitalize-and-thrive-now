@@ -2806,7 +2806,7 @@
       "video_id": null,
       "status": "blocked",
       "verified": false,
-      "error": "Scheduled trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD fired. YouTube posting infrastructure not implemented."
+      "error": "Scheduled trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD fired at 19:15 UTC. YouTube posting infrastructure not implemented."
     },
     "youtube_reclaim": {
       "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
@@ -2815,6 +2815,6 @@
       "verified": false,
       "error": "Scheduled trigger trig_01B1niovsnnBBAK8wzqApscV fired at 19:07 UTC. YouTube posting infrastructure not implemented."
     },
-    "note": "Afternoon slot Sep 20: Two YouTube triggers fired, both blocked on infrastructure."
+    "note": "Afternoon slot Sep 20: Two YouTube triggers fired (Revitalize at 19:15 UTC, Reclaim at 19:07 UTC), both blocked on infrastructure."
   }
 ]
