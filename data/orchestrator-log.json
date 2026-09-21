@@ -1397,5 +1397,33 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-21",
+    "day": "Monday",
+    "slot": "video",
+    "timestamp_utc": "2026-09-21T22:12:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, far below the ~54 credits/video (~108 for both brands) needed for seedance_2_0 at 9:16, 12s. Same shortfall has now blocked every slot since 2026-09-15 afternoon (30+ consecutive failures across all slots for both brands, including this trigger on 2026-09-11, 09-14, 09-15, 09-16, 09-17, and 09-18). Not attempted/retried per routine instructions (single balance check, no retry, no fallback to ugc-flow or local file generation). No video generated, no Instagram draft attempted for either brand. Needs Higgsfield credit top-up before any image/video slot can succeed. Separately flagged to the owner: this video-reel trigger appears to be firing far more often than its configured weekly cadence (recorded on Fri 09-11, Mon 09-14, Tue 09-15, Wed 09-16, Thu 09-17, Fri 09-18, and now Mon 09-21) and is likely a major contributor to the credit exhaustion blocking all other slots.",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "hormone balance",
+      "angle": "reel",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "status": "failed",
+      "verified": false,
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, far below the ~54 credit cost for seedance_2_0 9:16 12s."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "testosterone optimization",
+      "angle": "reel",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "status": "failed",
+      "verified": false,
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~54 credits/video) before either leg was attempted."
+    }
   }
 ]
