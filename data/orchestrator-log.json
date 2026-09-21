@@ -2645,5 +2645,29 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-21 (Monday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$149",
+      "theme": "hormone balance",
+      "angle": "aspirational_offer",
+      "caption_file": "data/pending-posts-2026-09-21-evening.json",
+      "compliant": true,
+      "status": "failed",
+      "note": "Meta-compliant aspirational evening caption generated & saved. NOT posted: image generation blocked, Higgsfield workspace balance is 1.36 credits and nano_banana_2 (1:1) requires 1.5 credits per image. No fallback image was substituted per instructions. Requires Higgsfield credit top-up to proceed."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "testosterone optimization",
+      "angle": "aspirational_offer",
+      "caption_file": "data/pending-posts-2026-09-21-evening.json",
+      "compliant": true,
+      "status": "failed",
+      "note": "Meta-compliant aspirational evening caption generated & saved. NOT posted: image generation blocked, Higgsfield workspace balance is 1.36 credits and nano_banana_2 (1:1) requires 1.5 credits per image. No fallback image was substituted per instructions. Requires Higgsfield credit top-up to proceed."
+    }
   }
 ]
