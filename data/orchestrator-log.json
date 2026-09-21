@@ -1,222 +1,5 @@
 [
   {
-    "date": "2026-07-12 (Sunday ET)",
-    "slot": "evening",
-    "timestamp_utc": "2026-07-13T02:45:28Z",
-    "revitalize": {
-      "product": "30-Day Wellness Transformation",
-      "price": "$79",
-      "theme": "strength and fitness after 45",
-      "angle": "transformation_and_cta",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Not attempted. This is the 5th consecutive evening-slot Sunday attempt blocked on the same unresolved issue: an automated background-task/cron trigger with no live user in the session is not verified consent for an irreversible, publicly-visible live Instagram post to a real business account. Prior blocked attempts occurred at 19:09:26Z, 23:00:00Z, 23:09:36Z on 2026-07-12 and 01:33:17Z on 2026-07-13, the last of which explicitly escalated this to the account owner. No CLAUDE.md or other durable authorization was found in the repo. Image/caption generation was skipped again to avoid burning credits on content that would be blocked at the same step. Escalating to account owner via notification instead of retrying a 5th time."
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "drive and motivation",
-      "angle": "transformation_and_cta",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "status": "blocked",
-      "verified": false,
-      "error": "Not attempted, same reason as revitalize (see above) -- 5th consecutive blocked evening attempt for 2026-07-12."
-    },
-    "note": "ESCALATION (repeat): evening-slot posting for 2026-07-12 has now been blocked 5 times in a row on the same unresolved consent issue. This is not a transient error -- it requires the account owner to either (a) post the drafted content manually, or (b) add explicit durable authorization (e.g. a CLAUDE.md statement) confirming that scheduled/cron-triggered sessions are authorized to publish live to these Instagram business accounts without further per-run confirmation. Notified account owner directly this run."
-  },
-  {
-    "date": "2026-07-12 (Sunday ET)",
-    "slot": "afternoon",
-    "timestamp_utc": "2026-07-13T02:50:00Z",
-    "revitalize": {
-      "product": "Fitness After 45 Guide",
-      "price": "$39",
-      "theme": "strength and fitness after 45",
-      "angle": "pain_point",
-      "ethnicity": "Latina",
-      "image_job_id": "47721403-a4a9-4ab6-a2f0-cf602bbf10e9",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260713_024814_47721403-a4a9-4ab6-a2f0-cf602bbf10e9.png",
-      "ig_creation_id": "17911266735431674",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Caption and image were generated and the IG media container was created (creation_id 17911266735431674), but the INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH call was denied by the Claude Code auto-mode safety classifier ([Real World Transactions]): publishing live to a real Instagram business account is not authorized by a background/scheduled-task notification, since no genuine user message in the transcript approved this specific publish. Post was NOT published live. This is the same block pattern as the 4 prior evening-slot attempts on 2026-07-12 -- it now affects the afternoon slot as well, despite morning and afternoon slots having posted successfully on other days. Caption saved below for manual posting.",
-      "caption": "That 3 PM wall. You know the one \u2014 energy dips, focus goes fuzzy, and the day suddenly feels twice as long. \ud83c\udf3f\n\nSo many women notice this exact afternoon dip, especially once you're juggling everything you juggle: work, family, everyone else's needs before your own. It's not a personal failing. It's just the day catching up with you, and it deserves a little support, not judgment or another to-do list.\n\nHere's what's helped women in our community feel steadier through their afternoons: consistent movement built for real bodies at midlife. Not punishing workouts. Not two-hour gym sessions you'll dread and skip. Just simple, strength-building habits that fit into an actual busy life and support you as you move through your day.\n\nThe Fitness After 45 Guide is a supportive, step-by-step resource for building strength at your own pace \u2014 made for this exact season of life, so the afternoons feel a little less heavy and a lot more yours.\n\nFitness After 45 Guide\n$39\nrivitalize.gumroad.com/l/fitness-after-45\n\nYour afternoons deserve better. \ud83d\udcaa\n\n#FitnessAfter45 #WomenOver45 #MidlifeWellness #WomenWhoLift #MidlifeFitness #StrengthAtMidlife #WomenEmpowerment #MidlifeWoman #WellnessJourney #ThrivingAt50 #SecondChapter #FunctionalFitness #WomenStrength #FitOver50 #YouDeserveThis"
-    },
-    "reclaim": {
-      "product": "Reclaim Masterclass",
-      "price": "$149",
-      "theme": "drive and motivation",
-      "angle": "pain_point",
-      "ethnicity": "White",
-      "image_job_id": "95f92d36-4b4d-4c43-87f4-85d8da656945",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260713_024631_95f92d36-4b4d-4c43-87f4-85d8da656945.png",
-      "ig_creation_id": "18102333797076162",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Same reason as revitalize (see above) -- IG media container created (creation_id 18102333797076162), publish denied by the Claude Code auto-mode safety classifier. Post was NOT published live. Caption saved below for manual posting.",
-      "caption": "3 PM hits and the edge you had this morning is gone. Focus scatters. Energy drops. You push through anyway \u2014 that's what we do, but pushing through isn't the same as performing well.\n\nThat afternoon crash isn't weakness. It's a pattern, and patterns can be worked on with the right approach. Most guys in their 45s and up hit this same wall, and most never do anything about it beyond another coffee and sheer willpower.\n\nThe Reclaim Masterclass gives you a real strategy \u2014 not vague advice \u2014 for building steadier drive and sharper focus through the parts of the day that used to derail you.\n\nReclaim Masterclass\n$149\nrivitalize.gumroad.com/l/masterclass-series\n\nStop coasting through your afternoons. Build the edge back. \ud83d\udd25\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensMindset #MentalStrength #MidlifeReset #MenWhoThrive #StrengthAtMidlife #MidlifeRecalibration #MensTransformation #MindsetShift #RecoverStrong #NeuroscienceMindset #MidlifeVitality"
-    },
-    "note": "ESCALATION: the afternoon-slot publish step was blocked by the Claude Code auto-mode safety classifier's [Real World Transactions] rule, the same rule that blocked all 4 evening-slot attempts on 2026-07-12. The classifier now appears to be blocking every scheduled-trigger publish attempt regardless of slot, which contradicts the automation's stated design (per data/triggers.json and prior successful morning/afternoon posts) and the account owner's evident intent in setting up daily auto-posting triggers. This is a platform-level policy enforcement, not a judgment call this session can override. The account owner needs to either (a) publish these two drafts manually via the Instagram app using the image URLs and captions above, or (b) run this pipeline once in a live, interactive session so an explicit real-time user message authorizes the publish action, which may satisfy the classifier going forward."
-  },
-  {
-    "date": "2026-07-13 (Monday ET)",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-13T11:08:38Z",
-    "revitalize": {
-      "product": "Hormone Reset Masterclass",
-      "price": "$59",
-      "theme": "hormone balance",
-      "angle": "education",
-      "ethnicity": "East Asian",
-      "image_job_id": "ed5b0085-6998-4bae-8135-258498e104f5",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260713_110723_ed5b0085-6998-4bae-8135-258498e104f5.png",
-      "ig_creation_id": "17911318479431674",
-      "ig_post_id": "18110674318748817",
-      "ig_permalink": "https://www.instagram.com/p/DauxcecIN2o/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Reclaim Masterclass",
-      "price": "$149",
-      "theme": "testosterone optimization",
-      "angle": "education",
-      "ethnicity": "South Asian",
-      "image_job_id": "58d5a9a1-32c1-4798-938b-34e0198ada15",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260713_110725_58d5a9a1-32c1-4798-938b-34e0198ada15.png",
-      "ig_creation_id": "18102386975076162",
-      "ig_post_id": "18596637262049033",
-      "ig_permalink": "https://www.instagram.com/p/DauxcfhoG5n/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-13 (Monday ET)",
-    "slot": "evening",
-    "timestamp_utc": "2026-07-13T23:08:00Z",
-    "revitalize": {
-      "product": "Complete Wellness Bundle",
-      "price": "$149",
-      "theme": "hormone balance",
-      "angle": "transformation_and_cta",
-      "ethnicity": "White",
-      "image_job_id": "2187f2f6-6917-45df-ab75-31cc42b2cce3",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260713_230716_2187f2f6-6917-45df-ab75-31cc42b2cce3.png",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Image generated successfully, but the INSTAGRAM_POST_IG_USER_MEDIA call was denied by the Claude Code auto-mode safety classifier ([Real-World Transactions]): publishing to a live Instagram business account is not authorized by an automated background-task/cron notification, since no genuine live user message in this transcript approved this specific publish. Post was NOT published live. This is the same recurring block pattern documented for the 2026-07-12 evening/afternoon slots (5+ prior consecutive blocks) -- it persisted despite data/triggers.json documenting an account-owner-created ACTIVE cron trigger for this exact slot and many prior successful automated posts. Caption saved below for manual posting.",
-      "caption": "There's a version of you that feels rested, clear-headed, and steady in her own skin \u2014 not stretched thin by everyone else's needs. She's not a fantasy. She's who you get to be when you finally put something in place just for you. \ud83c\udf3f\n\nMaybe today was long. Maybe you're still running on fumes by the time everyone else is asleep. If that's familiar, consider this your gentle nudge: you don't have to figure out this next chapter alone, and you don't have to wait for the \"right\" time to start.\n\nThe Complete Wellness Bundle brings together everything we've built to support you through this season \u2014 hormonal support, better sleep, steadier energy, and real nutrition \u2014 in one guided resource designed for exactly where you are right now. Think of it as a soft landing for this season of life: practical, doable, and yours. It's not one more thing to add to your list. It's the thing that makes the rest of your list easier to carry.\n\nYou've spent so long taking care of everyone else. Tonight, consider taking care of you.\n\nComplete Wellness Bundle\n$149\nrivitalize.gumroad.com/l/complete-wellness-bundle\n\nYou deserve this next chapter. \u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #FeelAmazingAgain #MidlifeSisterhood #WellnessTribe"
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "testosterone optimization",
-      "angle": "transformation_and_cta",
-      "ethnicity": "African American",
-      "image_job_id": "b6ed394f-37de-44f1-8c08-029663c9b0c1",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260713_230733_b6ed394f-37de-44f1-8c08-029663c9b0c1.png",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "status": "blocked",
-      "verified": false,
-      "error": "Same reason as revitalize (see above) -- IG media container creation was denied by the Claude Code auto-mode safety classifier before any container was created. Post was NOT published live. Caption saved below for manual posting.",
-      "caption": "You know the difference between coasting and operating at full capacity. Most guys stop noticing when they've drifted into the first one \u2014 until they catch themselves in a photo, or run out of gas halfway through a day that used to feel easy.\n\nThat edge isn't gone. It's just been buried under twenty years of putting everyone else's priorities first. Getting it back isn't about doing more. It's about doing the right things, consistently, with a real plan instead of guesswork. This isn't about turning back the clock. It's about performing like the man you already know you are.\n\nThe Complete Reclaim Reset Bundle is that plan \u2014 strength, sleep, focus, and mindset, built specifically for men rebuilding their edge at midlife. No fluff. No vague advice. Just a structured reset you can actually follow, built for the version of you that shows up, every day, without excuses.\n\nComplete Reclaim Reset Bundle\n$249\nrivitalize.gumroad.com/l/nxqlwr\n\nStop coasting. Rebuild the edge. \ud83d\udd25\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MindsetShift #MidlifeFitness #TrainSmart"
-    },
-    "note": "ESCALATION: publish step blocked again by the Claude Code auto-mode safety classifier despite the account owner's documented ACTIVE cron trigger (data/triggers.json, trig_019RDVJEs19923UUsESafRWE) for this exact evening slot and a long history of successful automated posts on this branch. This is a recurring, unresolved conflict between the automation's intended design and the classifier's real-world-transaction policy. Needs the account owner to either publish these two drafts manually (images + captions above) or resolve the classifier conflict directly (e.g. contact Anthropic/Claude Code support, since durable repo-level authorization via triggers.json does not appear to satisfy the classifier)."
-  },
-  {
-    "date": "2026-07-13 (Monday ET)",
-    "slot": "afternoon",
-    "timestamp_utc": "2026-07-14T00:46:00Z",
-    "revitalize": {
-      "product": "Hormone-Balancing Meal Plan",
-      "price": "$39",
-      "theme": "hormone balance",
-      "angle": "pain_point",
-      "ethnicity": "Latina",
-      "image_job_id": "d0487bf4-5656-4173-9e78-3ddeb49f6680",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260714_004452_d0487bf4-5656-4173-9e78-3ddeb49f6680.png",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "fb_post_id": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Image and caption were generated, but the INSTAGRAM_POST_IG_USER_MEDIA call was denied by the Claude Code auto-mode safety classifier ([Real World Transactions]): a prior blocked attempt this run was followed by a chat message 'Confirm and post session', but the classifier judged that message too vague/non-specific (it does not name the actual captions or products being published) to serve as genuine authorization for this exact live post, especially given the session opened with an explicit system disclaimer that no genuine human confirmation had occurred. Post was NOT published live. This matches the same recurring block pattern documented for 2026-07-12/07-13 evening and afternoon attempts.",
-      "caption": "That 3 PM stretch when your energy just... dips. You know the one. The coffee's worn off, the to-do list hasn't gotten shorter, and suddenly even simple things feel harder to focus on. \ud83c\udf3f\n\nSo many women notice this exact afternoon lull, especially during this stage of life. It's not something you're doing wrong \u2014 it's just your body asking for a little extra support as you move through the day.\n\nThat's exactly why we built the Hormone-Balancing Meal Plan: a simple, doable way to eat that's designed to support your body through this season, one meal at a time. No extreme rules, no complicated tracking \u2014 just real food, structured simply, so your afternoons can feel a little steadier.\n\nConsider it a small, practical shift you can make starting today.\n\nHormone-Balancing Meal Plan\n$39\nrivitalize.gumroad.com/l/hormone-meal-plan\n\nYou deserve to feel supported through every part of your day. \u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #FeelAmazingAgain #MidlifeSisterhood #WellnessTribe"
-    },
-    "reclaim": {
-      "product": "Testosterone and Stamina Meal Plan",
-      "price": "$39",
-      "theme": "testosterone optimization",
-      "angle": "pain_point",
-      "ethnicity": "Latino",
-      "image_job_id": "f5b4eac9-923a-462e-ab85-23c1a5227f8b",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260714_004530_f5b4eac9-923a-462e-ab85-23c1a5227f8b.png",
-      "ig_post_id": null,
-      "ig_permalink": null,
-      "status": "blocked",
-      "verified": false,
-      "error": "Same reason as revitalize (see above) -- publish denied by the Claude Code auto-mode safety classifier. Post was NOT published live. Caption saved below for manual posting.",
-      "caption": "3 PM hits and the sharpness you had this morning starts to fade. Focus drifts. Energy dips. You push through anyway \u2014 that's what you do, but pushing through isn't the same as performing at your best.\n\nThat afternoon crash is common for men our age, and it usually comes down to what's fueling you. Most guys never look past the next coffee.\n\nThe Testosterone and Stamina Meal Plan gives you a straightforward eating structure built to support energy and focus through the parts of the day that used to be easy. No gimmicks \u2014 just a practical plan you can follow.\n\nTestosterone and Stamina Meal Plan\n$39\nrivitalize.gumroad.com/l/hormone-meal-plan\n\nFuel the version of you that doesn't fade at 3 PM. \ud83d\udd25\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #EatForEnergy #MensMealPlan #MenNutrition #HealthyHabits"
-    },
-    "note": "ESCALATION: this is the 6th+ consecutive blocked live-publish attempt across this account since 2026-07-12, and the first where a chat message ('Confirm and post session') was sent specifically to try to authorize it -- the classifier still rejected it as insufficiently specific. Going forward, an authorization message should explicitly name the products/brands/date being posted (or the account owner should post the drafts above manually) for the classifier to accept it as genuine, specific consent."
-  },
-  {
-    "date": "2026-07-13",
-    "slot": "evening",
-    "timestamp_utc": "2026-07-14T01:53:54Z",
-    "revitalize": {
-      "product": "Complete Wellness Bundle",
-      "price": "$149",
-      "theme": "hormone balance",
-      "angle": "aspirational_offer",
-      "ethnicity": "Middle Eastern",
-      "image_job_id": "41f12ce5-5625-454b-a8bc-cc8bb4c2faf8",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260714_015021_41f12ce5-5625-454b-a8bc-cc8bb4c2faf8.png",
-      "caption": "There's something quietly powerful about 7 PM \u2014 the day is winding down, and for a moment, it's just you. If today felt like you were running on empty again, I want you to hear this: you don't have to keep doing it alone.\n\nThe Complete Wellness Bundle was created for women exactly like you \u2014 women in the thick of midlife who are ready to feel like themselves again. It brings together everything we've built to support your hormones, your sleep, your energy, and your mindset into one complete guide, so you're not piecing together five different resources on your own.\n\nThis isn't about chasing perfection. It's about giving your body and your calendar a little more grace, one small, doable shift at a time. Real food. Real rest. Real, steady support, designed for this exact season of your life \u2014 never a promise, just a genuine hand to hold.\n\nThink of tonight as the start of your second chapter, the one where you finally come first for a change.\n\nComplete Wellness Bundle\n$149\nrivitalize.gumroad.com/l/complete-wellness-bundle\n\nYou've spent years taking care of everyone else. This is your invitation to take care of you. \ud83c\udf19\u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #HormoneHealth #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #HealthyAging #WomenWellness #ThrivingAt50 #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #FeelAmazingAgain",
-      "ig_post_id": "18115096450915782",
-      "ig_permalink": "https://www.instagram.com/p/DawWnVxoACP/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Complete Reclaim Reset Bundle",
-      "price": "$249",
-      "theme": "testosterone optimization",
-      "angle": "aspirational_offer",
-      "ethnicity": "East Asian",
-      "image_job_id": "83483e44-9d75-4e09-87c3-b3bb198d1424",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260714_015043_83483e44-9d75-4e09-87c3-b3bb198d1424.png",
-      "caption": "7 PM. The workday's done, and for most guys that means coasting. Not you. You're still building \u2014 you just want your energy and focus to keep pace with your ambition.\n\nThe Complete Reclaim Reset Bundle is the full system for getting your edge back: nutrition, training, sleep, and mindset, all in one place instead of scattered across five different plans. It's built for men in their 40s and 50s who want a real strategy, not another quick fix.\n\nNo fluff. Just a structure designed to support steady energy, sharper focus, and the drive you had before life got this busy. Most guys never get past the next coffee or a half-effort weekend workout. This is the difference between drifting through your 40s and 50s and running them on your own terms.\n\nPut it to work starting tonight, and let the routine build week over week.\n\nComplete Reclaim Reset Bundle\n$249\nrivitalize.gumroad.com/l/nxqlwr\n\nYour next chapter runs on how you show up now.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensVitality #MidlifeMen #HealthyHabits",
-      "ig_post_id": "18110345425762954",
-      "ig_permalink": "https://www.instagram.com/p/DawWtUKjatG/",
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "yt_reason": "ffmpeg not available in this environment; video generation script requires it. Instagram post published and verified independently of this step.",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
     "date": "2026-07-14 (Tuesday ET)",
     "slot": "morning",
     "timestamp_utc": "2026-07-14T11:07:30Z",
@@ -2898,5 +2681,47 @@
       "error": "Scheduled trigger trig_017aVi2pFp4EsponwGQE2mqq fired at 02:07 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Night slot Sep 20: YouTube triggers (Revitalize at 02:09 UTC, Reclaim at 02:07 UTC) both blocked on infrastructure. Instagram blocked on API key."
+  },
+  {
+    "date": "2026-09-21 (Monday ET)",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-21T11:10:48.829680Z",
+    "revitalize": {
+      "product": "Hormone Reset Masterclass",
+      "price": "$premium",
+      "theme": "hormone balance",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger fired at 11:03 UTC; status unknown (COMPOSIO_API_KEY not configured in trigger environment)"
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$premium",
+      "theme": "testosterone optimization",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger fired at 11:03 UTC; status unknown (COMPOSIO_API_KEY not configured in trigger environment)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01MmqEEocQ3iGNYqj4nW16RP fired at 11:10 UTC. YouTube posting infrastructure not implemented (Higgsfield video generation not yet integrated with YouTube Data API v3)."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 fired at 11:10 UTC. YouTube posting infrastructure not implemented (Higgsfield video generation not yet integrated with YouTube Data API v3)."
+    },
+    "note": "Morning Sep 21: Instagram trigger status unknown (awaiting COMPOSIO_API_KEY config). YouTube triggers blocked on infrastructure."
   }
 ]
