@@ -1,40 +1,6 @@
 [
   {
     "date": "2026-07-14 (Tuesday ET)",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-14T11:07:30Z",
-    "revitalize": {
-      "product": "The Midlife Sleep Fix",
-      "price": "$39",
-      "theme": "sleep optimization",
-      "angle": "education",
-      "ethnicity": "African American",
-      "image_job_id": "7363e674-9364-46c8-84e5-c1ff81d46f60",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260714_110542_7363e674-9364-46c8-84e5-c1ff81d46f60.png",
-      "caption": "Ever wonder why so many women in midlife find themselves wide awake at 3 AM, mind racing, even after an exhausting day? Sleep researchers have long pointed to shifting patterns during this stage of life as one reason rest can become lighter, more easily interrupted, and harder to sink back into.\n\nHere's what's worth understanding: it's not just how tired you feel, it's sleep architecture itself that can shift in this season. That's why generic advice like \"just go to bed earlier\" often falls flat. What tends to help more is a routine built specifically around this stage of life: evening habits, environment adjustments, and wind-down practices designed to work with your body, not against it.\n\nThe Midlife Sleep Fix walks you through exactly that: a research-informed, step-by-step guide to building an evening routine that supports deeper, more restorative rest.\n\nThe Midlife Sleep Fix\n$39\nrivitalize.gumroad.com/l/midlife-sleep-fix\n\nRestful nights are possible in this chapter too. \ud83c\udf19\u2728\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #MidlifeSleep #BetterSleepHabits #MenopauseSleep #BetterSleep #SleepHealth #SleepBetter #FeelRested #TiredNoMore #WomenWellness #SecondChapter #WellnessJourney #MidlifeWoman",
-      "ig_post_id": "18057355442775016",
-      "ig_permalink": "https://www.instagram.com/p/DaxWJkOIJr9/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Sleep Recovery Protocol",
-      "price": "$39",
-      "theme": "sleep recovery",
-      "angle": "education",
-      "ethnicity": "Middle Eastern",
-      "image_job_id": "779cafdb-a5c4-4f26-b101-a15b16599cb8",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260714_110552_779cafdb-a5c4-4f26-b101-a15b16599cb8.png",
-      "caption": "Most guys chalk up bad sleep to \"just getting older.\" But researchers point to something more specific: it's not only duration that shifts with age, it's sleep architecture, the deep-recovery stages your body relies on to repair and reset overnight.\n\nThat matters when your days demand sharp focus and steady output. Cutting that stage short isn't just feeling tired, it's showing up without your full edge.\n\nThe Sleep Recovery Protocol breaks down what actually supports deeper, more restorative sleep: evening habits, environment factors, and a wind-down sequence built for men who don't have time to guess.\n\nSleep Recovery Protocol\n$39\nrivitalize.gumroad.com/l/midlife-sleep-fix\n\nRecovery isn't optional. It's strategy.\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensHealth #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensSleep #SleepRecovery #RestAndRecovery #DeepSleep",
-      "ig_post_id": "17857826640679459",
-      "ig_permalink": "https://www.instagram.com/p/DaxWJnSIMAL/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-14 (Tuesday ET)",
     "slot": "video",
     "timestamp_utc": "2026-07-14T16:16:00Z",
     "revitalize": {
@@ -2723,5 +2689,47 @@
       "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 fired at 11:10 UTC. YouTube posting infrastructure not implemented (Higgsfield video generation not yet integrated with YouTube Data API v3)."
     },
     "note": "Morning Sep 21: Revitalize YouTube trigger fired at 11:15:54 UTC, Reclaim at 11:10 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY config)."
+  },
+  {
+    "date": "2026-09-21 (Monday ET)",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-21T19:08:25.633398Z",
+    "revitalize": {
+      "product": "Hormone-Balancing Meal Plan",
+      "price": "$79",
+      "theme": "hormone balance",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger fired at 19:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "reclaim": {
+      "product": "Testosterone and Stamina Meal Plan",
+      "price": "$69",
+      "theme": "testosterone optimization",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger fired at 19:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD (Revitalize) will fire at 19:03 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01B1niovsnnBBAK8wzqApscV (Reclaim) fired at 19:08:05 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Afternoon Sep 21: Reclaim YouTube trigger fired at 19:08 UTC, Revitalize expected at 19:03 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
