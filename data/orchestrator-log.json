@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-07-14 (Tuesday ET)",
-    "slot": "video",
-    "timestamp_utc": "2026-07-14T16:16:00Z",
-    "revitalize": {
-      "product": "The Midlife Sleep Fix",
-      "price": "$39",
-      "theme": "sleep optimization",
-      "format": "reel",
-      "ig_post_id": "18057709709725616",
-      "ig_permalink": "https://www.instagram.com/reel/Dax5c8ggTUy/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Sleep Recovery Protocol",
-      "price": "$39",
-      "theme": "sleep recovery",
-      "format": "reel",
-      "ig_post_id": "18135412474597497",
-      "ig_permalink": "https://www.instagram.com/reel/Dax5cL3DfN_/",
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "yt_reason": "No Reclaim and Rise YouTube channel (UCreclaimandriseNOW) connected in Composio; only the Revitalize channel ('Dr. Alexander') is connected.",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
     "date": "2026-07-15 (Wednesday ET)",
     "slot": "morning",
     "timestamp_utc": "2026-07-15T11:07:56Z",
@@ -2731,5 +2702,47 @@
       "error": "YouTube trigger trig_01B1niovsnnBBAK8wzqApscV (Reclaim) fired at 19:08:05 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Afternoon Sep 21: Revitalize YouTube trigger fired at 19:16:41 UTC, Reclaim at 19:08:05 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
+  },
+  {
+    "date": "2026-09-21 (Monday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-21T23:07:30.117611Z",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$199",
+      "theme": "hormone balance",
+      "angle": "aspirational_offer",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Evening Instagram trigger fired at 23:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$299",
+      "theme": "testosterone optimization",
+      "angle": "aspirational_offer",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Evening Instagram trigger fired at 23:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01EhtmHDwVnLLkZHiXba7vMr (Revitalize) fired at 23:07:09 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01SS46tirzZEYMhZs3NyuRPw (Reclaim) will fire shortly after 23:03 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Evening Sep 21: Revitalize YouTube trigger fired at 23:07:09 UTC, Reclaim expected shortly. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
