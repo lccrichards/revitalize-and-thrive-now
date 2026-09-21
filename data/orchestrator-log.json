@@ -1425,5 +1425,31 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~54 credits/video) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-21",
+    "day": "Monday",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-21T23:00:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1 (single balance check, no retry, no fallback to local file generation per routine instructions). No image generated, no Instagram post attempted for either brand. This is the same shortfall that has now blocked every scheduled slot since 2026-09-15 afternoon (6+ consecutive days, all slots, both brands). Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "hormone balance",
+      "angle": "aspirational_offer",
+      "status": "failed",
+      "verified": false,
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "testosterone optimization",
+      "angle": "aspirational_offer",
+      "status": "failed",
+      "verified": false,
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
+    }
   }
 ]
