@@ -1,34 +1,6 @@
 [
   {
     "date": "2026-07-16 (Thursday ET)",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-16T11:07:50Z",
-    "revitalize": {
-      "product": "The Mindset Bundle",
-      "price": "$49",
-      "theme": "mindset reset",
-      "angle": "education",
-      "ethnicity": "East Asian",
-      "ig_post_id": "17865140544600467",
-      "ig_permalink": "https://www.instagram.com/p/Da2fvCDoAhB/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Midlife Mindset Code",
-      "price": "$39",
-      "theme": "mindset recalibration",
-      "angle": "education",
-      "ethnicity": "Latino",
-      "ig_post_id": "18005993648936416",
-      "ig_permalink": "https://www.instagram.com/p/Da2fvCvIOro/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-16 (Thursday ET)",
     "slot": "video",
     "timestamp_utc": "2026-07-16T16:06:30Z",
     "revitalize": {
@@ -2767,5 +2739,47 @@
       "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 (Reclaim) fired at 11:09:43 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Morning Sep 22: Revitalize YouTube trigger fired at 11:10:57 UTC, Reclaim at 11:09:43 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
+  },
+  {
+    "date": "2026-09-22 (Tuesday ET)",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-22T19:15:13.168442Z",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$79",
+      "theme": "sleep optimization",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger fired at 19:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$59",
+      "theme": "sleep recovery",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger fired at 19:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD (Revitalize) will fire at 19:03 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01B1niovsnnBBAK8wzqApscV (Reclaim) fired at 19:14:50 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Afternoon Sep 22: Reclaim YouTube trigger fired at 19:14:50 UTC, Revitalize expected at 19:03 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
