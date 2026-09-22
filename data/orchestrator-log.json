@@ -1,34 +1,6 @@
 [
   {
     "date": "2026-07-15 (Wednesday ET)",
-    "slot": "morning",
-    "timestamp_utc": "2026-07-15T11:07:56Z",
-    "revitalize": {
-      "product": "Energy Restoration Guide",
-      "price": "$29",
-      "theme": "energy restoration",
-      "angle": "education",
-      "ethnicity": "South Asian",
-      "ig_post_id": "17884138503447457",
-      "ig_permalink": "https://www.instagram.com/p/Daz69MVoMYy/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Reclaim Masterclass",
-      "price": "$149",
-      "theme": "energy and cognitive performance",
-      "angle": "education",
-      "ethnicity": "White",
-      "ig_post_id": "17897398767539022",
-      "ig_permalink": "https://www.instagram.com/p/Daz69NjG6VJ/",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-15 (Wednesday ET)",
     "slot": "video",
     "timestamp_utc": "2026-07-15T22:13:55Z",
     "revitalize": {
@@ -2744,5 +2716,47 @@
       "error": "YouTube trigger trig_01SS46tirzZEYMhZs3NyuRPw (Reclaim) will fire shortly after 23:03 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Evening Sep 21: Revitalize YouTube trigger fired at 23:07:09 UTC, Reclaim at 23:10:49 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
+  },
+  {
+    "date": "2026-09-21 (Monday ET)",
+    "slot": "night",
+    "timestamp_utc": "2026-09-22T02:07:32.409765Z",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$79",
+      "theme": "hormone balance",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Night Instagram trigger not yet created (PENDING_CREATION in triggers.json)"
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$59",
+      "theme": "testosterone optimization",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Night Instagram trigger not yet created (PENDING_CREATION in triggers.json)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_014auPSM595MBQDbHT4sk6vr (Revitalize) will fire shortly. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) fired at 02:07:13 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Night Sep 21 (fires 02:03 UTC Sep 22): Reclaim YouTube trigger fired at 02:07:13 UTC, Revitalize expected shortly. Both blocked on infrastructure. Instagram night trigger not yet created."
   }
 ]
