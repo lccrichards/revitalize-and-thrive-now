@@ -1451,5 +1451,33 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-21",
+    "day": "Monday",
+    "slot": "night",
+    "timestamp_utc": "2026-09-22T02:05:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1 (single balance check, no retry, no fallback to local file generation per routine instructions). This is the same shortfall that has now blocked every slot since 2026-09-15 afternoon (31+ consecutive failures across all slots for both brands). No image generated, no Instagram post attempted for either brand.",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "hormone balance",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "status": "failed",
+      "verified": false,
+      "error": "mcp__higgsfield__balance confirmed 1.36 credits; nano_banana_2 1:1 image cost is ~1.5 credits (insufficient). No image generated, no post attempted."
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "theme": "testosterone optimization",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "status": "failed",
+      "verified": false,
+      "error": "Skipped: Higgsfield balance confirmed insufficient (1.36 credits vs ~1.5 credit cost) before Revitalize leg was attempted; not attempted separately."
+    }
   }
 ]
