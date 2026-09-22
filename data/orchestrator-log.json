@@ -2645,5 +2645,30 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-22 (Tuesday ET)",
+    "slot": "evening",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "aspirational_offer",
+      "caption_file": "data/pending-posts-2026-09-22-evening.json",
+      "compliant": true,
+      "status": "failed",
+      "note": "Meta-compliant aspirational evening caption generated & saved; Instagram publish blocked because Higgsfield image generation failed with 'Out of credits in the selected workspace' (balance: 1.36 credits, ultra plan, single workspace, no fallback available). No image was generated, so INSTAGRAM_POST_IG_USER_MEDIA was not attempted for this account to avoid posting without required media."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "sleep recovery",
+      "angle": "aspirational_offer",
+      "caption_file": "data/pending-posts-2026-09-22-evening.json",
+      "compliant": true,
+      "status": "failed",
+      "note": "Meta-compliant aspirational evening caption generated & saved; Instagram publish blocked because Higgsfield image generation failed with 'Out of credits in the selected workspace' (balance: 1.36 credits, ultra plan, single workspace, no fallback available). No image was generated, so INSTAGRAM_POST_IG_USER_MEDIA was not attempted for this account to avoid posting without required media.",
+      "yt_status": "skipped_no_media"
+    }
   }
 ]
