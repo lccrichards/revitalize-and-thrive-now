@@ -1507,5 +1507,49 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-22",
+    "day": "Tuesday",
+    "slot": "video",
+    "timestamp_utc": "2026-09-22T16:06:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, far below the ~54 credits per video (108 total for both brands) required for seedance_2_0 at 9:16, 12s. This is the same Higgsfield workspace credit shortfall that has now blocked every slot since 2026-09-15 afternoon (33+ consecutive failures across all slots for both brands, 8 full days running). Not attempted/retried per routine instructions (single call only, no retry, no fallback to ugc-flow or local file generation). No video generated, no Instagram draft or YouTube step attempted for either brand. Monologue scripts, on-screen beats, and captions were fully drafted per the mandatory CONTENT ANGLE (day_rotation.tuesday = high_functioning_burnout) so no writing work is lost. Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$39",
+      "theme": "sleep optimization",
+      "angle": "reel",
+      "emotional_angle": "high_functioning_burnout",
+      "monologue_script": "Burnout doesn't always look like falling apart. Sometimes it looks like still doing it all, showing up for everyone else, running on empty behind a smile. That's not weakness \u2014 that's what happens when you carry too much for too long. This is why I built The Midlife Sleep Fix into my nights: the wind-down routine I actually lean on to help my body settle before bed.",
+      "caption": "Burnout doesn't always look like falling apart, friend. \ud83c\udf19\n\nSometimes it looks like still showing up for everyone else \u2014 still capable, still dependable, still holding it together on the outside while you're quietly running on empty. That's not laziness. It may just be evidence that you've been carrying too much, for too long, without enough rest built in.\n\nThe Midlife Sleep Fix is the wind-down routine I actually lean on \u2014 the small, doable steps I turn to most nights so my body has a chance to settle before bed. It's not about doing more. It's about giving your evenings a little structure so rest can actually land.\n\nIf you've been saying 'I'm fine' for longer than you mean it, this is your gentle reminder: you're allowed to put it down tonight. \ud83d\udc9b\n\nThe Midlife Sleep Fix\n$39\nhttps://buy.stripe.com/cNieVcdy2eXKbriel5aAw05\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #MidlifeSleep #BetterSleepHabits #FeelRested #MidlifeSisterhood",
+      "on_screen_beats": [
+        "Burnout doesn't always look like falling apart.",
+        "The wind-down routine I actually use each night.",
+        "Support for rest, not another to-do.",
+        "Link in bio \u2014 $39"
+      ],
+      "status": "failed",
+      "error": "Not attempted: mcp__higgsfield__balance confirmed 1.36 credits vs ~54 credit cost for seedance_2_0 9:16 12s (insufficient). No video was generated."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "sleep recovery",
+      "angle": "reel",
+      "emotional_angle": "high_functioning_burnout",
+      "monologue_script": "Burnout doesn't always look like falling apart. Sometimes it looks like still performing, still showing up, still carrying the load while everything on paper looks fine. That's not weakness. The Complete Reclaim Reset Bundle is the system I run daily \u2014 recovery work built into the routine, not an afterthought.",
+      "caption": "Burnout doesn't always look like falling apart.\n\nSometimes it looks like still performing, still showing up, still carrying the load \u2014 while everything on paper looks fine. That's not weakness. That's what happens when you over-function without enough recovery built in.\n\nThe Complete Reclaim Reset Bundle is the system I run daily \u2014 focus work, recovery protocols, and mindset training built for men rebuilding their edge in midlife. Not doing more. Building in the structure that lets recovery actually happen.\n\nIf you've been saying 'I'm good' longer than you mean it, this is your cue to rebuild the routine.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift",
+      "on_screen_beats": [
+        "Burnout doesn't always look like falling apart.",
+        "Still showing up. Still carrying the load.",
+        "The recovery system I run daily.",
+        "Link in bio \u2014 $249"
+      ],
+      "youtube_title": "The Recovery System I Run Daily",
+      "youtube_description": "Burnout doesn't always look like falling apart.\n\nSometimes it looks like still performing, still showing up, still carrying the load \u2014 while everything on paper looks fine. That's not weakness. That's what happens when you over-function without enough recovery built in.\n\nThe Complete Reclaim Reset Bundle is the system I run daily \u2014 focus work, recovery protocols, and mindset training built for men rebuilding their edge in midlife. Not doing more. Building in the structure that lets recovery actually happen.\n\nIf you've been saying 'I'm good' longer than you mean it, this is your cue to rebuild the routine.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift\n\nLearn more: https://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i",
+      "status": "failed",
+      "error": "Not attempted: mcp__higgsfield__balance confirmed 1.36 credits vs ~54 credit cost for seedance_2_0 9:16 12s (insufficient). No video was generated."
+    }
   }
 ]
