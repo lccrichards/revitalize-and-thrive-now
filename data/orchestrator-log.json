@@ -2810,6 +2810,6 @@
       "verified": false,
       "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 (Reclaim) will fire at 11:03 UTC. YouTube posting infrastructure not implemented."
     },
-    "note": "Morning Sep 23: Revitalize YouTube trigger fired at 11:15:37 UTC, Reclaim expected at 11:03 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
+    "note": "Morning Sep 23: Revitalize YouTube trigger fired at 11:15:37 UTC, Reclaim at 11:16:46 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
