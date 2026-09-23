@@ -1633,5 +1633,31 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-23",
+    "day": "Wednesday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-23T11:00:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1 (single balance check, no retry, no fallback to local file generation per routine instructions). No image generated, no Instagram post attempted for either brand. This is the same Higgsfield workspace credit shortfall that has now blocked every slot since 2026-09-15 afternoon (37+ consecutive failures across all slots for both brands, 8+ full days plus all of today morning slot). Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "product": "Energy Restoration Guide",
+      "price": "$37",
+      "theme": "energy restoration",
+      "angle": "education",
+      "status": "failed",
+      "verified": false,
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1."
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$197",
+      "theme": "energy and cognitive performance",
+      "angle": "education",
+      "status": "failed",
+      "verified": false,
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
+    }
   }
 ]
