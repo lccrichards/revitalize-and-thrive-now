@@ -1,40 +1,5 @@
 [
   {
-    "date": "2026-07-16 (Thursday ET)",
-    "slot": "evening",
-    "timestamp_utc": "2026-07-17T00:00:37Z",
-    "revitalize": {
-      "product": "The Revitalize Circle Monthly Membership",
-      "price": "$97/month",
-      "theme": "mindset reset",
-      "angle": "aspirational_offer",
-      "ethnicity": "Latina",
-      "image_job_id": "b576d899-9e39-43cc-9a14-6c01997576ad",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260716_235800_b576d899-9e39-43cc-9a14-6c01997576ad.png",
-      "ig_post_id": "18401257480087608",
-      "ig_permalink": "https://www.instagram.com/p/Da34OBEHVuh/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Reclaim Masterclass",
-      "price": "$149",
-      "theme": "mindset recalibration",
-      "angle": "aspirational_offer",
-      "ethnicity": "African American",
-      "image_job_id": "dc00aad4-cffc-4b2b-af52-8d49dcbb3352",
-      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260716_235802_dc00aad4-cffc-4b2b-af52-8d49dcbb3352.png",
-      "ig_post_id": "18122637322718735",
-      "ig_permalink": "https://www.instagram.com/p/Da34OFVm_6e/",
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "yt_reason": "ffmpeg not available in this environment; video generation script requires it. Instagram post published and verified independently of this step.",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
     "date": "2026-07-17 (Friday ET)",
     "slot": "morning",
     "timestamp_utc": "2026-07-17T11:06:51+00:00",
@@ -2804,5 +2769,47 @@
       "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) will fire shortly. YouTube posting infrastructure not implemented."
     },
     "note": "Night Sep 22 (fires 02:03 UTC Sep 23): Revitalize YouTube trigger fired at 02:12:32 UTC, Reclaim at 02:13:30 UTC. Both blocked on infrastructure. Instagram night trigger not yet created."
+  },
+  {
+    "date": "2026-09-23 (Wednesday ET)",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-23T11:15:58.919243Z",
+    "revitalize": {
+      "product": "Energy Restoration Guide",
+      "price": "$49",
+      "theme": "energy restoration",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger fired at 11:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$premium",
+      "theme": "energy and cognitive performance",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger fired at 11:03 UTC; status unknown (COMPOSIO_API_KEY not configured)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01MmqEEocQ3iGNYqj4nW16RP (Revitalize) fired at 11:15:37 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 (Reclaim) will fire at 11:03 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Morning Sep 23: Revitalize YouTube trigger fired at 11:15:37 UTC, Reclaim expected at 11:03 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
