@@ -2843,8 +2843,8 @@
       "video_id": null,
       "status": "blocked",
       "verified": false,
-      "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) will fire shortly. YouTube posting infrastructure not implemented."
+      "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) fired at 02:13:28 UTC. YouTube Data API v3 upload endpoint not implemented. Higgsfield video generation available but cannot publish to YouTube without API integration."
     },
-    "note": "Night Sep 23 (fires 02:03 UTC Sep 24): Revitalize YouTube trigger fired at 02:12:05 UTC, Reclaim expected shortly. Both blocked on infrastructure. Instagram night trigger not yet created."
+    "note": "Night Sep 23 (fires 02:03 UTC Sep 24): Both Revitalize (02:12:05 UTC) and Reclaim (02:13:28 UTC) YouTube triggers fired on schedule. Both blocked on YouTube Data API v3 infrastructure. Instagram night trigger not yet created."
   }
 ]
