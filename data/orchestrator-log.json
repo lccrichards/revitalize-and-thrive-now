@@ -2846,5 +2846,47 @@
       "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) fired at 02:13:28 UTC. YouTube Data API v3 upload endpoint not implemented. Higgsfield video generation available but cannot publish to YouTube without API integration."
     },
     "note": "Night Sep 23 (fires 02:03 UTC Sep 24): Both Revitalize (02:12:05 UTC) and Reclaim (02:13:28 UTC) YouTube triggers fired on schedule. Both blocked on YouTube Data API v3 infrastructure. Instagram night trigger not yet created."
+  },
+  {
+    "date": "2026-09-24 (Thursday ET)",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-24T11:17:10.000000Z",
+    "revitalize": {
+      "product": "The Mindset Bundle",
+      "price": "TBD",
+      "theme": "mindset reset",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger (if it exists) blocked on COMPOSIO_API_KEY"
+    },
+    "reclaim": {
+      "product": "Midlife Mindset Code",
+      "price": "TBD",
+      "theme": "mindset recalibration",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger (if it exists) blocked on COMPOSIO_API_KEY"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01MmqEEocQ3iGNYqj4nW16RP (Revitalize) fired at 11:17:06 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 (Reclaim) fired at 11:17:13 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Morning Sep 24 (fires 11:03 UTC): Both Revitalize (11:17:06 UTC) and Reclaim (11:17:13 UTC) YouTube triggers fired on schedule. Both blocked on YouTube Data API v3 infrastructure. Instagram morning trigger status unknown (awaiting COMPOSIO_API_KEY or confirmation of existence)."
   }
 ]
