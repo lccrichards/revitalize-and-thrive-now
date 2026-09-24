@@ -1,39 +1,6 @@
 [
   {
     "date": "2026-07-17 (Friday ET)",
-    "slot": "video",
-    "timestamp_utc": "2026-07-17T22:13:00Z",
-    "revitalize": {
-      "product": "Hormone-Balancing Meal Plan",
-      "price": "$39",
-      "theme": "nutrition and meal planning",
-      "format": "reel",
-      "ethnicity": "White",
-      "video_job_id": "cae96f31-2e80-40e6-85c0-17e3d6e7f070",
-      "ig_post_id": "18105967676043117",
-      "ig_permalink": "https://www.instagram.com/reel/Da6QjYjAC6n/",
-      "fb_post_id": "auto-synced-from-instagram",
-      "status": "posted",
-      "verified": true
-    },
-    "reclaim": {
-      "product": "Testosterone and Stamina Meal Plan",
-      "price": "$39",
-      "theme": "nutrition for male hormones",
-      "format": "reel",
-      "ethnicity": "East Asian",
-      "video_job_id": "7630410b-5d47-4c90-a1fb-739c5df578f0",
-      "ig_post_id": "18605651860016215",
-      "ig_permalink": "https://www.instagram.com/reel/Da6QlqHFcaA/",
-      "yt_video_id": null,
-      "yt_status": "skipped",
-      "yt_reason": "No Reclaim and Rise YouTube channel (UCreclaimandriseNOW) connected in Composio; only the Revitalize channel ('Dr. Alexander', youtube_luckie-mang) is connected. Instagram post published and verified independently of this step.",
-      "status": "posted",
-      "verified": true
-    }
-  },
-  {
-    "date": "2026-07-17 (Friday ET)",
     "slot": "evening",
     "timestamp_utc": "2026-07-17T23:06:43Z",
     "revitalize": {
@@ -2837,5 +2804,47 @@
       "error": "YouTube trigger trig_01SS46tirzZEYMhZs3NyuRPw (Reclaim) fired at 23:15:01 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Evening Sep 23: Revitalize YouTube trigger fired at 23:19:27 UTC, Reclaim at 23:15:01 UTC. Both blocked on infrastructure. Instagram trigger status unknown (awaiting COMPOSIO_API_KEY)."
+  },
+  {
+    "date": "2026-09-23 (Wednesday ET)",
+    "slot": "night",
+    "timestamp_utc": "2026-09-24T02:12:26.613127Z",
+    "revitalize": {
+      "product": "The Midlife Sleep Fix",
+      "price": "$79",
+      "theme": "energy restoration",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Night Instagram trigger not yet created (PENDING_CREATION in triggers.json)"
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$59",
+      "theme": "energy and cognitive performance",
+      "angle": "urgency_social_proof",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Night Instagram trigger not yet created (PENDING_CREATION in triggers.json)"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_014auPSM595MBQDbHT4sk6vr (Revitalize) fired at 02:12:05 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) will fire shortly. YouTube posting infrastructure not implemented."
+    },
+    "note": "Night Sep 23 (fires 02:03 UTC Sep 24): Revitalize YouTube trigger fired at 02:12:05 UTC, Reclaim expected shortly. Both blocked on infrastructure. Instagram night trigger not yet created."
   }
 ]
