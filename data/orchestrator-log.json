@@ -2645,5 +2645,37 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-24 (Thursday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-24T23:37:11Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$97/month",
+      "theme": "mindset reset",
+      "angle": "aspirational_offer",
+      "caption_status": "drafted_compliant",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "fb_post_id": null,
+      "status": "failed",
+      "verified": false,
+      "error": "Higgsfield image generation failed before any post attempt: 'Out of credits in the selected workspace' (balance check confirmed 1.36 credits remaining, plan: ultra -- insufficient for nano_banana_2 generation). Attempted once for Revitalize, failed immediately with the same error. Caption was drafted and is Meta-compliant (191 words, product/price/URL on own lines, no forbidden claims) but no image could be generated, so no Instagram post was attempted. Requires the Higgsfield workspace to be topped up before this or any future slot can post for either brand."
+    },
+    "reclaim": {
+      "product": "Reclaim Masterclass",
+      "price": "$149",
+      "theme": "mindset recalibration",
+      "angle": "aspirational_offer",
+      "caption_status": "drafted_compliant",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "yt_video_id": null,
+      "yt_status": "skipped",
+      "status": "failed",
+      "verified": false,
+      "error": "Higgsfield image generation failed before any post attempt: 'Out of credits in the selected workspace' (balance check confirmed 1.36 credits remaining, plan: ultra -- insufficient for nano_banana_2 generation). Attempted once for Reclaim, failed immediately with the same error. Caption was drafted and is Meta-compliant (156 words, product/price/URL on own lines, no forbidden claims) but no image could be generated, so no Instagram post was attempted. YouTube video generation was skipped to avoid spending remaining credits on a video attempt certain to fail the same way. Requires the Higgsfield workspace to be topped up before this or any future slot can post for either brand."
+    }
   }
 ]
