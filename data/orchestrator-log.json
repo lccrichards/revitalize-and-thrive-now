@@ -2888,5 +2888,47 @@
       "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 (Reclaim) fired at 11:17:13 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Morning Sep 24 (fires 11:03 UTC): Both Revitalize (11:17:06 UTC) and Reclaim (11:17:13 UTC) YouTube triggers fired on schedule. Both blocked on YouTube Data API v3 infrastructure. Instagram morning trigger status unknown (awaiting COMPOSIO_API_KEY or confirmation of existence)."
+  },
+  {
+    "date": "2026-09-24 (Thursday ET)",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-24T19:07:49.000000Z",
+    "revitalize": {
+      "product": "Stress Management Workbook",
+      "price": "TBD",
+      "theme": "mindset reset",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger blocked on COMPOSIO_API_KEY"
+    },
+    "reclaim": {
+      "product": "Midlife Mindset Code",
+      "price": "TBD",
+      "theme": "mindset recalibration",
+      "angle": "supportive_solution",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Afternoon Instagram trigger blocked on COMPOSIO_API_KEY"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD (Revitalize) expected to fire ~19:03 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01B1niovsnnBBAK8wzqApscV (Reclaim) fired at 19:07:49 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Afternoon Sep 24 (fires 19:03 UTC): Reclaim YouTube trigger confirmed at 19:07:49 UTC. Revitalize YouTube trigger expected to have fired ~19:03 UTC (notification pending). Both blocked on YouTube Data API v3 infrastructure. Instagram afternoon trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
