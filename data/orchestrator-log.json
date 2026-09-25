@@ -2032,5 +2032,31 @@
       "status": "failed",
       "error": "mcp__higgsfield__generate_video get_cost preflight confirmed cost 54 credits for seedance_2_0 9:16 12s; workspace balance is 1.36 credits (insufficient). No video was generated."
     }
+  },
+  {
+    "date": "2026-09-25",
+    "day": "Friday",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-25T23:04:48Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1. No image generated, no Instagram post attempted for either brand. Same Higgsfield workspace credit shortfall blocking every image/video slot since 2026-09-15 afternoon (11 consecutive days as of this run, including both of today's prior slots). Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "angle": "aspirational_offer",
+      "theme": "nutrition and meal planning",
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "status": "failed",
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1.",
+      "verified": false
+    },
+    "reclaim": {
+      "angle": "aspirational_offer",
+      "theme": "nutrition for male hormones",
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "status": "failed",
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted.",
+      "verified": false
+    }
   }
 ]
