@@ -3088,7 +3088,7 @@
       "video_id": null,
       "status": "blocked",
       "verified": false,
-      "error": "YouTube trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD (Revitalize) expected to fire ~19:03 UTC. YouTube posting infrastructure not implemented."
+      "error": "YouTube trigger trig_01Ce9PeaLa1QdqUSVX2jJpMD (Revitalize) fired at 19:16:12 UTC. YouTube Data API v3 upload endpoint not implemented."
     },
     "youtube_reclaim": {
       "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
@@ -3097,6 +3097,6 @@
       "verified": false,
       "error": "YouTube trigger trig_01B1niovsnnBBAK8wzqApscV (Reclaim) fired at 19:09:07 UTC. YouTube posting infrastructure not implemented."
     },
-    "note": "Afternoon Sep 25 (fires 19:03 UTC): Reclaim YouTube trigger confirmed at 19:09:07 UTC. Revitalize YouTube trigger expected to have fired ~19:03 UTC (notification pending). Both blocked on YouTube Data API v3 infrastructure. Instagram afternoon trigger status unknown (awaiting COMPOSIO_API_KEY)."
+    "note": "Afternoon Sep 25 (fires 19:03 UTC): Revitalize YouTube trigger confirmed at 19:16:12 UTC, Reclaim YouTube trigger confirmed at 19:09:07 UTC. Both blocked on YouTube Data API v3 infrastructure. Instagram afternoon trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
