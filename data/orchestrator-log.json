@@ -2645,5 +2645,30 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-25 (Friday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-25T23:36:46Z",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$149",
+      "theme": "nutrition and meal planning",
+      "angle": "aspirational_offer",
+      "caption_prepared": true,
+      "status": "blocked",
+      "error": "Higgsfield workspace out of credits (1.36 credits available, generation requires more) -- mcp__higgsfield__generate_image returned \"Out of credits in the selected workspace.\" Image could not be generated, so no Instagram post was created or attempted.",
+      "verified": false
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "nutrition for male hormones",
+      "angle": "aspirational_offer",
+      "caption_prepared": true,
+      "status": "blocked",
+      "error": "Higgsfield workspace out of credits (1.36 credits available, generation requires more) -- mcp__higgsfield__generate_image returned \"Out of credits in the selected workspace.\" Image could not be generated, so no Instagram post was created or attempted.",
+      "verified": false
+    }
   }
 ]
