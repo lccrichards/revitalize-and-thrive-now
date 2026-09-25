@@ -1933,5 +1933,30 @@
       "verified": false,
       "error": "Skipped: Higgsfield balance confirmed insufficient (1.36 credits vs ~1.5 credit cost) before Revitalize leg was attempted; not attempted separately."
     }
+  },
+  {
+    "date": "2026-09-25",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-25T11:20:57Z",
+    "revitalize": {
+      "product": "Hormone-Balancing Meal Plan",
+      "price": "$39",
+      "theme": "nutrition and meal planning",
+      "angle": "education",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "verified": false,
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1."
+    },
+    "reclaim": {
+      "product": "Testosterone and Stamina Meal Plan",
+      "price": "$39",
+      "theme": "nutrition for male hormones",
+      "angle": "education",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "verified": false,
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
+    }
   }
 ]
