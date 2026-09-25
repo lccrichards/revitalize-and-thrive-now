@@ -1986,5 +1986,51 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-25",
+    "day": "Friday",
+    "slot": "video",
+    "timestamp_utc": "2026-09-25T22:15:00Z",
+    "status": "failed",
+    "note": "mcp__higgsfield__balance confirmed 1.36 credits; mcp__higgsfield__generate_video get_cost preflight for seedance_2_0 at 9:16, 12s confirmed cost 54 credits per video (108 total for both brands) -- insufficient. This is the same Higgsfield workspace credit shortfall that has now blocked every slot since 2026-09-15 afternoon, spanning 10+ consecutive days across all slots for both brands. Not attempted/retried per routine instructions (single call only, no retry, no fallback to ugc-flow or local file generation). No video generated, no Instagram draft or YouTube step attempted for either brand. Captions and monologue scripts were fully drafted per the CONTENT ANGLE (emotional_duality) and are recorded below so no writing work is lost. Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "nutrition and meal planning",
+      "angle": "reel",
+      "emotional_angle": "emotional_duality",
+      "ethnicity": "South Asian",
+      "monologue_script": "You can be grateful for your life and still be grieving something in it \u2014 that doesn't make you broken. The Complete Wellness Bundle is what I return to for steady sleep, mindset, and meal support on the heavy days.",
+      "caption": "You can be grateful for your life and still be grieving something in it \u2014 and that doesn't make you ungrateful, weak, or broken. \ud83e\udd0d\n\nSo many of us learned to say \u201cI'm fine\u201d when what we really meant was \u201cI don't know where to begin.\u201d Both can be true at once: the gratitude and the ache. Making room for that duality isn't a detour from the journey \u2014 it's part of it.\n\nThis is why I built my days around the Complete Wellness Bundle. It's the resource I return to for gentle, steady support with sleep, mindset, and nourishing meals, all in one place. It's not about erasing the hard days \u2014 it's about having something dependable to lean on through them.\n\nIf you've been holding two feelings at once lately, you are not alone, and you don't have to sort it out today. \ud83c\udf3f\n\nComplete Wellness Bundle\n$297\nhttps://buy.stripe.com/3cI5kC0LgaHu7b2el5aAw0d\n\n#RevitalizeAndThrive #WomenOver45 #MidlifeWellness #WomenEmpowerment #LifeAfter45 #MidlifeTransformation #WomenWellness #SecondChapter #YouDeserveThis #MidlifeWoman #WellnessJourney #FeelAmazingAgain #MidlifeSisterhood #WellnessTribe",
+      "on_screen_beats": [
+        "You can be grateful and still be grieving.",
+        "Sleep, mindset & nourishment support in one place.",
+        "Not about erasing hard days \u2014 having something steady.",
+        "Link in bio \u2014 $297"
+      ],
+      "status": "failed",
+      "error": "mcp__higgsfield__generate_video get_cost preflight confirmed cost 54 credits for seedance_2_0 9:16 12s; workspace balance is 1.36 credits (insufficient). No video was generated."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "nutrition for male hormones",
+      "angle": "reel",
+      "emotional_angle": "emotional_duality",
+      "ethnicity": "East Asian",
+      "monologue_script": "You can be proud of your life and still be grieving something in it \u2014 that doesn't make you weak. The Complete Reclaim Reset Bundle is the system I run daily for focus, recovery, and mindset \u2014 steady structure, even on the heavy days.",
+      "caption": "Strength and grief can live in the same body \u2014 feeling both doesn't cancel out the other.\n\nMost guys don't talk about the days that feel heavy underneath a life that looks solid on paper. You're allowed to keep building even while you're still carrying something.\n\nThe Complete Reclaim Reset Bundle is the system I run daily \u2014 focus, recovery, and mindset work, built for men rebuilding their edge in midlife. No fluff, no waiting for the weight to lift first. Just structure you can use today.\n\nIf you're holding more than you show people, you're not the only one. Start where you are.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift",
+      "on_screen_beats": [
+        "Strength and grief can live in the same body.",
+        "Daily focus, recovery & mindset training.",
+        "No fluff. Just structure.",
+        "Link in bio \u2014 $249"
+      ],
+      "youtube_title": "The Daily System I Run to Stay Steady",
+      "youtube_description": "Strength and grief can live in the same body \u2014 feeling both doesn't cancel out the other.\n\nMost guys don't talk about the days that feel heavy underneath a life that looks solid on paper. You're allowed to keep building even while you're still carrying something.\n\nThe Complete Reclaim Reset Bundle is the system I run daily \u2014 focus, recovery, and mindset work, built for men rebuilding their edge in midlife. No fluff, no waiting for the weight to lift first. Just structure you can use today.\n\nIf you're holding more than you show people, you're not the only one. Start where you are.\n\nComplete Reclaim Reset Bundle\n$249\nhttps://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i\n\n#ReclaimAndRise #MenOver45 #MidlifeMen #RecoverYourDrive #MensWellness #MidlifeRecalibration #MenWhoThrive #StrengthAtMidlife #RecoverStrong #MidlifeReset #MensTransformation #MensMindset #MindsetShift\n\nLearn more: https://buy.stripe.com/6oUdR8eC602Q7b2dh1aAw0i",
+      "status": "failed",
+      "error": "mcp__higgsfield__generate_video get_cost preflight confirmed cost 54 credits for seedance_2_0 9:16 12s; workspace balance is 1.36 credits (insufficient). No video was generated."
+    }
   }
 ]
