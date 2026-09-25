@@ -1958,5 +1958,33 @@
       "verified": false,
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
     }
+  },
+  {
+    "date": "2026-09-25",
+    "day": "Friday",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-25T19:05:00Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1 (single balance check, no retry, no fallback to local file generation per routine instructions). No image generated, no Instagram post attempted for either brand. This is the same Higgsfield workspace credit shortfall that has blocked every slot since 2026-09-15 afternoon (now 10 full days, including all of today's morning slot). Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "product": "Hormone-Balancing Meal Plan",
+      "price": "$39",
+      "theme": "nutrition and meal planning",
+      "angle": "supportive_solution",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "verified": false,
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the ~1.5 credit cost for nano_banana_2 at 1:1."
+    },
+    "reclaim": {
+      "product": "Testosterone and Stamina Meal Plan",
+      "price": "$39",
+      "theme": "nutrition for male hormones",
+      "angle": "supportive_solution",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "verified": false,
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted."
+    }
   }
 ]
