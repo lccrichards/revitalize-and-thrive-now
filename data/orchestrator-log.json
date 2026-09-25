@@ -3014,5 +3014,47 @@
       "error": "YouTube trigger trig_017aVi2pFp4EsponwGQE2mqq (Reclaim) fired at 02:07:37 UTC. YouTube posting infrastructure not implemented."
     },
     "note": "Night Sep 24 (fires 02:03 UTC Sep 25): Revitalize YouTube trigger confirmed at 02:09:12 UTC, Reclaim YouTube trigger confirmed at 02:07:37 UTC. Both blocked on YouTube Data API v3 infrastructure. Instagram night trigger not yet created."
+  },
+  {
+    "date": "2026-09-25 (Friday ET)",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-25T11:09:53.000000Z",
+    "revitalize": {
+      "product": "Nutrition Deep Dive",
+      "price": "TBD",
+      "theme": "nutrition and meal planning",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger blocked on COMPOSIO_API_KEY"
+    },
+    "reclaim": {
+      "product": "Testosterone and Stamina Meal Plan",
+      "price": "TBD",
+      "theme": "nutrition for male hormones",
+      "angle": "education",
+      "ig_post_id": null,
+      "ig_permalink": null,
+      "status": "not_attempted",
+      "verified": false,
+      "note": "Morning Instagram trigger blocked on COMPOSIO_API_KEY"
+    },
+    "youtube_revitalize": {
+      "channel": "UCIkVsuNrVulsB13pZ_iPFpw",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_01MmqEEocQ3iGNYqj4nW16RP (Revitalize) expected to fire ~11:03 UTC. YouTube posting infrastructure not implemented."
+    },
+    "youtube_reclaim": {
+      "channel": "UCvBwWMJzRWUCC3VCzxLBQ8g",
+      "video_id": null,
+      "status": "blocked",
+      "verified": false,
+      "error": "YouTube trigger trig_017RWFxxy6mGhKrZNgZAdYd2 (Reclaim) fired at 11:09:53 UTC. YouTube posting infrastructure not implemented."
+    },
+    "note": "Morning Sep 25 (fires 11:03 UTC): Reclaim YouTube trigger confirmed at 11:09:53 UTC. Revitalize YouTube trigger expected to have fired ~11:03 UTC (notification pending). Both blocked on YouTube Data API v3 infrastructure. Instagram morning trigger status unknown (awaiting COMPOSIO_API_KEY)."
   }
 ]
