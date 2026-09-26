@@ -2058,5 +2058,33 @@
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs ~1.5 credits) before either leg was attempted.",
       "verified": false
     }
+  },
+  {
+    "date": "2026-09-25",
+    "day": "Friday",
+    "slot": "night",
+    "timestamp_utc": "2026-09-26T02:04:54Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits, below the confirmed 1.5 credit cost for nano_banana_2 at 1:1 (get_cost preflight). No image generated, no Instagram post attempted for either brand. Same Higgsfield workspace credit shortfall blocking every image/video slot since 2026-09-15 afternoon (12 consecutive days as of this run, including all four of todays slots). Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "angle": "urgency_social_proof",
+      "theme": "nutrition and meal planning",
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$27/month",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the 1.5 credit cost for nano_banana_2 at 1:1 (get_cost preflight).",
+      "verified": false
+    },
+    "reclaim": {
+      "angle": "urgency_social_proof",
+      "theme": "nutrition for male hormones",
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "emotional_angle": "emotional_duality",
+      "status": "failed",
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs 1.5 credits) before either leg was attempted.",
+      "verified": false
+    }
   }
 ]
