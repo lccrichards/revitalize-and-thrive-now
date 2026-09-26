@@ -2147,5 +2147,35 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-26",
+    "day": "Saturday",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-26T23:06:00Z",
+    "status": "failed",
+    "note": "Images generated successfully for both brands (Higgsfield nano_banana_flash, 1:1). Instagram publish step (INSTAGRAM_POST_IG_USER_MEDIA via Composio) was blocked before any call was made: the Claude Code auto-mode permission classifier denied the action as a Real-World Transaction, despite the standing owner authorization in CLAUDE.md for scheduled posting. No workaround was attempted per harness policy -- this requires the repo owner to grant/allow the action (e.g. via permission settings) for future scheduled runs to publish. No Instagram post was created or attempted for either brand; nothing to verify.",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$27/month",
+      "theme": "wellness essentials",
+      "angle": "aspirational_offer",
+      "ethnicity": "African American",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260926_230559_f7155907-11aa-4b19-9b62-51fef410ad52.png",
+      "status": "failed",
+      "error": "Publish blocked by Claude Code auto-mode permission classifier (Real-World Transactions) before any Composio call was made.",
+      "verified": false
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "strength and muscle density",
+      "angle": "aspirational_offer",
+      "ethnicity": "Middle Eastern",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260926_230602_3e2b14d0-6a33-47d1-ab95-dd45df068f31.png",
+      "status": "failed",
+      "error": "Publish blocked by Claude Code auto-mode permission classifier (Real-World Transactions) before any Composio call was made.",
+      "verified": false
+    }
   }
 ]
