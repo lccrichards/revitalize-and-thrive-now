@@ -2114,5 +2114,38 @@
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs 1.5 credits) before either leg was attempted.",
       "verified": false
     }
+  },
+  {
+    "date": "2026-09-26",
+    "day": "Saturday",
+    "slot": "afternoon",
+    "timestamp_utc": "2026-09-26T19:07:14Z",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "wellness essentials",
+      "angle": "supportive_solution",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "White",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260926_190531_8e75772f-9931-4014-954a-9d02bf2d67db.png",
+      "ig_post_id": "18114348038010282",
+      "ig_permalink": "https://www.instagram.com/p/Ddwv2sanfgi/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Strength Density and Longevity",
+      "price": "$39",
+      "theme": "strength and muscle density",
+      "angle": "supportive_solution",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "South Asian",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260926_190538_0eee7404-1567-4d4d-8872-b5b57a6debb0.png",
+      "ig_post_id": "18116996704784252",
+      "ig_permalink": "https://www.instagram.com/p/Ddwv2s2mzwC/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
