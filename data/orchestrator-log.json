@@ -2645,5 +2645,37 @@
       "status": "generated_not_posted",
       "note": "Meta-compliant aspirational evening caption generated & saved; Buffer posting skipped (BUFFER_API_KEY not set)"
     }
+  },
+  {
+    "date": "2026-09-26 (Saturday ET)",
+    "slot": "evening",
+    "timestamp_utc": "2026-09-26T23:41:58Z",
+    "revitalize": {
+      "product": "The Revitalize Circle Monthly Membership",
+      "price": "$97/month",
+      "theme": "skincare and beauty",
+      "angle": "aspirational_offer",
+      "ethnicity": "East Asian",
+      "ig_post_id": "18122154514697680",
+      "ig_permalink": "https://www.instagram.com/p/DdxPT8lGbbH/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true,
+      "note": "Composio publish succeeded; caption hashtags were sent with %23 encoding per tool schema hint but rendered as literal '%23tag' text rather than tappable hashtags on the live post -- cosmetic only, no compliance impact. Consider editing caption in-app to replace '%23' with '#' if desired."
+    },
+    "reclaim": {
+      "product": "Complete Reclaim Reset Bundle",
+      "price": "$249",
+      "theme": "strength and muscle density",
+      "angle": "aspirational_offer",
+      "ethnicity": "South Asian",
+      "ig_post_id": "18008252189780256",
+      "ig_permalink": "https://www.instagram.com/p/DdxPT2IGS_E/",
+      "yt_video_id": null,
+      "yt_status": "skipped",
+      "status": "posted",
+      "verified": true,
+      "note": "Composio publish succeeded; same %23 hashtag rendering note as Revitalize applies. YouTube best-effort step skipped this run: no URL-based upload path available -- YOUTUBE_UPLOAD_VIDEO requires an S3-key file reference from a prior upload/download action, and a full generate-video + S3-stage + upload pipeline was out of scope for a best-effort step this run."
+    }
   }
 ]
