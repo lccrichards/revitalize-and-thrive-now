@@ -2086,5 +2086,33 @@
       "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs 1.5 credits) before either leg was attempted.",
       "verified": false
     }
+  },
+  {
+    "date": "2026-09-26",
+    "day": "Saturday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-26T11:05:27Z",
+    "status": "failed",
+    "note": "Aborted before generation: mcp__higgsfield__balance confirmed 1.36 credits; get_cost preflight for nano_banana_2 at 1:1 confirmed 1.5 credits required (insufficient). No image generated, no Instagram post attempted for either brand. Same Higgsfield workspace credit shortfall blocking every image/video slot since 2026-09-15 afternoon (13 consecutive failed slots as of this run). Needs Higgsfield credit top-up before any image/video slot can succeed.",
+    "revitalize": {
+      "angle": "education",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "theme": "wellness essentials",
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "status": "failed",
+      "error": "Aborted before generation: Higgsfield balance confirmed 1.36 credits, below the 1.5 credit cost for nano_banana_2 at 1:1 (get_cost preflight).",
+      "verified": false
+    },
+    "reclaim": {
+      "angle": "education",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "theme": "strength and muscle density",
+      "product": "Strength Density and Longevity",
+      "price": "$39",
+      "status": "failed",
+      "error": "Not attempted separately: Higgsfield balance confirmed insufficient (1.36 vs 1.5 credits) before either leg was attempted.",
+      "verified": false
+    }
   }
 ]
