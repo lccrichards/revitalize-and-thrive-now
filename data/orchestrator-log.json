@@ -2210,5 +2210,38 @@
       "status": "posted",
       "verified": true
     }
+  },
+  {
+    "date": "2026-09-27",
+    "day": "Sunday",
+    "slot": "morning",
+    "timestamp_utc": "2026-09-27T11:07:13Z",
+    "revitalize": {
+      "product": "Fitness After 45 Guide",
+      "price": "$39",
+      "theme": "strength and fitness after 45",
+      "angle": "education",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "South Asian",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260927_110533_5b7f2f59-5ad4-4fc0-9a24-fe88fe8a9736.png",
+      "ig_post_id": "18161228509496236",
+      "ig_permalink": "https://www.instagram.com/p/DdyduICG3sy/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Midlife Mindset Code",
+      "price": "$39",
+      "theme": "drive and motivation",
+      "angle": "education",
+      "emotional_angle": "high_functioning_burnout",
+      "ethnicity": "African American",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260927_110536_b3c0ccbb-c700-49da-ade0-c8dd42de7d8b.png",
+      "ig_post_id": "18115195493329361",
+      "ig_permalink": "https://www.instagram.com/p/DdyduEcm1Z8/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
