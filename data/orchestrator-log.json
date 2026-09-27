@@ -2177,5 +2177,38 @@
       "error": "Publish blocked by Claude Code auto-mode permission classifier (Real-World Transactions) before any Composio call was made.",
       "verified": false
     }
+  },
+  {
+    "date": "2026-09-26",
+    "day": "Saturday",
+    "slot": "night",
+    "timestamp_utc": "2026-09-27T02:08:33Z",
+    "revitalize": {
+      "product": "Complete Wellness Bundle",
+      "price": "$297",
+      "theme": "wellness essentials",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "Latina",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260927_020654_06d25859-b3d2-4c44-b47b-a98e20607e47.png",
+      "ig_post_id": "18073717664474162",
+      "ig_permalink": "https://www.instagram.com/p/DdxgF4PjXGx/",
+      "fb_post_id": "auto-synced-from-instagram",
+      "status": "posted",
+      "verified": true
+    },
+    "reclaim": {
+      "product": "Sleep Recovery Protocol",
+      "price": "$39",
+      "theme": "strength and muscle density",
+      "angle": "urgency_social_proof",
+      "emotional_angle": "anxiety_begin_before_ready",
+      "ethnicity": "East Asian",
+      "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Dh5wIc9WvpYi5tGsHvmkdA27Sa/hf_20260927_020656_f1b836cb-997f-454b-be61-936791cebd54.png",
+      "ig_post_id": "17926823076179900",
+      "ig_permalink": "https://www.instagram.com/p/DdxgF3RG45E/",
+      "status": "posted",
+      "verified": true
+    }
   }
 ]
